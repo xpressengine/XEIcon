@@ -41,7 +41,7 @@ XEIcon will be maintained under the Semantic Versioning guidelines as much as po
 
 
 ## Contributors
-[@daepoa](https://www.facebook.com/daepoa), [@marob](http://www.facebook.com/marob.99), [@may](https://www.facebook.com/rabbitgirl80), [@daze](http://www.facebook.com/daze325.), [@pretty758](https://www.facebook.com/haneul.kim.79656).
+[@daepoa](https://www.facebook.com/daepoa), [@marob](http://www.facebook.com/marob.99), [@may](https://www.facebook.com/rabbitgirl80), [@daze](http://www.facebook.com/daze325.), [@pretty758](https://www.facebook.com/haneul.kim.79656), [@bebop104](https://www.facebook.com/jihyeok.lee.3)
 
 
 ## Authors
