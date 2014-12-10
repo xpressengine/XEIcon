@@ -51,4 +51,5 @@ XEIcon will be maintained under the Semantic Versioning guidelines as much as po
 
 
 ## Copyright
-Copyright 2014 NAVER Corp. http://www.navercorp.com
+Published by [XpressEngine.](https://www.xpressengine.com/)
+Copyright [ⓒNAVER Corp.](http://www.navercorp.com/ko/index.nhn) Supported by [D2 Program.](http://developer.naver.com/wiki/pages/techSupport)
