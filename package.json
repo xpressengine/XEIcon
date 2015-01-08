@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "The iconic font published by XpressEngine.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/xpressengine/XEIcon.git"
@@ -18,11 +15,11 @@
   "bugs": {
     "url": "https://github.com/xpressengine/XEIcon/issues"
   },
-  "homepage": "https://github.com/xpressengine/XEIcon",
+  "homepage": "http://xpressengine.github.io/XEIcon",
   "dependencies": {
     "grunt": "^0.4.5",
-    "grunt-handlebars-html": "0.0.1",
     "grunt-underscore-compiler": "0.0.3",
+    "grunt-gh-pages": "^0.9.1",
     "underscore": "^1.7.0"
-  }
+  },
 }
