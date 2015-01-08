@@ -102,9 +102,11 @@ module.exports = function(grunt) {
 	});
 
 	grunt.registerTask('build', '', function() {
+		var pkg = grunt.file.readJSON('package.json');
 		var template = fs.readFileSync('template.html').toString();
 		var tmpl = _.template(template);
 		var prefix = data_selection.preferences.fontPref.prefix;
+		var version = pkg.version;
 
 		if(!grunt.file.isDir('dist')) {
 			fs.mkdirSync('dist');
@@ -126,7 +128,7 @@ module.exports = function(grunt) {
 			icons.push(list);
 		});
 
-		tmpl = tmpl({"list": icons});
+		tmpl = tmpl({"list": icons, "version": version});
 		fs.writeFileSync('dist/index.html', tmpl);
 		grunt.log.write('Result : dist/index.html');
 
