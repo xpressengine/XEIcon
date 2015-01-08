@@ -4,10 +4,6 @@ var data_icons = require("./icons.json");
 var data_selection = require("./selection.json");
 var icons = [];
 
-
-
-
-
 module.exports = function(grunt) {
 	"use strict";
 
@@ -15,10 +11,16 @@ module.exports = function(grunt) {
 		'gh-pages': {
 			options: {
 				base: 'dist',
-				add: true
 			},
-			src: ['index.html']
-		}
+			src: ['**']
+		},
+		'copy': {
+			dist: {
+				files: [
+				{expand: true, cwd: 'src/', src: ['**', '!template.html'], dest: 'dist'},
+				],
+			},
+		},
 	});
 
 	grunt.registerTask('generate', '', function() {
@@ -103,7 +105,7 @@ module.exports = function(grunt) {
 
 	grunt.registerTask('build', '', function() {
 		var pkg = grunt.file.readJSON('package.json');
-		var template = fs.readFileSync('template.html').toString();
+		var template = fs.readFileSync('./src/template.html').toString();
 		var tmpl = _.template(template);
 		var prefix = data_selection.preferences.fontPref.prefix;
 		var version = pkg.version;
@@ -134,9 +136,10 @@ module.exports = function(grunt) {
 
 	});
 
-	grunt.registerTask('default' , ['generate', 'build']);
+	grunt.registerTask('default' , ['generate', 'copy:dist', 'build']);
 	grunt.registerTask('deploy' , ['gh-pages']);
 
 
 	grunt.loadNpmTasks('grunt-gh-pages');
+	grunt.loadNpmTasks('grunt-contrib-copy');
 };
