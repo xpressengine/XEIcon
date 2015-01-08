@@ -47,9 +47,9 @@ module.exports = function(grunt) {
 			_.map(icons_current, function(value, key) { b.push(key+'@'+value); });
 
 			difference = _.difference(a, b);
+			grunt.verbose.writeflags(difference, 'difference');
 
 			if(difference) {
-
 				_.map(difference, function(icon) {
 					icon = icon.split('@');
 					var has_origin = true, has_current = true, status;
@@ -77,10 +77,10 @@ module.exports = function(grunt) {
 					_.map(items, function(icon) {
 						var tmp = icon.code + '@' + icon.class;
 
-						if(status === 'added') sss.unknown.push(icon.concat_origin);
+						if(status === 'added') sss.unknown.push(icon.origin);
 						else {
-							_.map(sss, function(items, category) {
-								var idx = _.indexOf(items, icon.concat_current);
+							_.map(sss, function(c_items, category) {
+								var idx = _.indexOf(c_items, icon.current);
 
 								if(idx > -1) {
 									if(status === 'changed') sss[category][idx] = tmp;
@@ -128,9 +128,12 @@ module.exports = function(grunt) {
 
 		tmpl = tmpl({"list": icons});
 		fs.writeFileSync('dist/index.html', tmpl);
+		grunt.log.write('Result : dist/index.html');
+
 	});
 
-	grunt.registerTask('default' ,'build');
+	grunt.registerTask('default' , ['generate', 'build']);
+	grunt.registerTask('deploy' , ['gh-pages']);
 
 
 	grunt.loadNpmTasks('grunt-gh-pages');
