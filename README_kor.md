@@ -1,5 +1,5 @@
 # [XEIcon v1.0.2](http://contest.xpressengine.com/templates/xe_icon/index.html)
-> [english](https://github.com/xpressengine/XEIcon/blob/master/README.md)
+> [english](/README.md)
 
 ### [XpressEngine](https://www.xpressengine.com)에서 제공하는 아이콘폰트입니다. 
 XEIcon은 웹사이트에 크기확장형으로 쓸 수 있는 612개의 백터 그래픽 아이콘입니다. 
