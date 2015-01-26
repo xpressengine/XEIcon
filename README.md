@@ -2,7 +2,7 @@
 > [Korean](/README_kor.md)
 
 ### The iconic font published by [XpressEngine](https://www.xpressengine.com)
-XEIcon is a full shite of 612 pictographic icons for easy scalable vector graphics on websites.
+XEIcon is a full suite of 612 pictographic icons for easy scalable vector graphics on websites.
 Get Started at [XEIcon Library](http://xpressengine.github.io/XEIcon/)
 
 
