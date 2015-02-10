@@ -1,6 +1,11 @@
 # [XEIcon v1.0.2](http://contest.xpressengine.com/templates/xe_icon/index.html)
 > [english](/README.md)
 
+XEIcon v1.02에서 제공하고 있는 CDN서비스가 한시적으로 중단됩니다.  
+보다 안정적인 서비스 제공을 위해 노력하겠습니다.
+이용에 불편을 드려 죄송합니다.
+
+
 ### [XpressEngine](https://www.xpressengine.com)에서 제공하는 아이콘폰트입니다. 
 XEIcon은 웹사이트에 크기확장형으로 쓸 수 있는 612개의 백터 그래픽 아이콘입니다. 
 [XEIcon 라이브러리](http://xpressengine.github.io/XEIcon/)에서 자세한 내용을 볼 수 있습니다.
