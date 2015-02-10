@@ -1,6 +1,11 @@
 # [XEIcon v1.0.2](http://xpressengine.github.io/XEIcon/)
 > [Korean](/README_kor.md)
 
+CDN service is suspended offered by XEIcon v1.02
+<br>We will try to provide more stable services.
+We apologize for any inconvenience.
+
+
 ### The iconic font published by [XpressEngine](https://www.xpressengine.com)
 XEIcon is a full suite of 612 pictographic icons for easy scalable vector graphics on websites.
 Get Started at [XEIcon Library](http://xpressengine.github.io/XEIcon/)
