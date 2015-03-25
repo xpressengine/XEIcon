@@ -11,8 +11,8 @@ XEIcon is a full suite of 612 pictographic icons for easy scalable vector graphi
 Get Started at [XEIcon Library](http://xpressengine.github.io/XEIcon/)
 
 ### Quick start 
-- Clone the repo: git clone https://github.com/twbs/bootstrap.git.
-- Install with Bower: bower install bootstrap.
+- Clone the repo: git clone https://github.com/xpressengine/XEIcon.git
+- Install with Bower: bower install xeicon
 
 ## License
 - The XEIcon font is licensed under SIL OFL 1.1 :
