@@ -1,9 +1,9 @@
 {
-  "name": "XEIcon",
+  "name": "xeicon",
   "description": "XEIcon is a full suite of 612 pictographic icons for easy scalable vector graphics on websites.",
   "version": "1.0.2",
-  "authors": ["juna","gunil"],
-  "keywords": ["xe","xeicon","xe-icon","icon"],
+  "authors": "naver",
+  "keywords": ["xe","xeicon","xe-icon","icon","font"],
   "homepage": "http://xpressengine.github.io/XEIcon/",
   "dependencies": {},
   "devDependencies": {},
