@@ -50,4 +50,4 @@ XEIcon은 최대한 시맨틱한 버전 지침을 따릅니다. 버전은 다음
 
 
 ## Copyright
-Copyright [ⓒNAVER Corp.](http://www.navercorp.com/ko/index.nhn) Supported by [NAVER D2 Program.](http://developer.naver.com/wiki/pages/techSupport)
+Copyright [ⓒNAVER Corp.](http://www.navercorp.com/ko/index.nhn) Supported by [NAVER D2 Program.](https://www.facebook.com/naverd2)
