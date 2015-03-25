@@ -50,9 +50,8 @@ for more information on SemVer, please visit http://semver.org/
 ## Authors
 - XpressEngine : http://www.xpressengine.com
 - Email : developers@xpressengine.com
-- Facebook : https://www.facebook.com/xehub?fref=ts
 - GitHub : https://github.com/xpressengine
 
 
 ## Copyright
-Copyright [ⓒNAVER Corp.](http://www.navercorp.com/ko/index.nhn) Supported by [D2 Program.](http://developer.naver.com/wiki/pages/techSupport)
+Copyright [ⓒNAVER Corp.](http://www.navercorp.com/ko/index.nhn) Supported by [NAVER D2 Program.](http://developer.naver.com/wiki/pages/techSupport)
