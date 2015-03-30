@@ -11,8 +11,9 @@ XEIcon은 웹사이트에 크기확장형으로 쓸 수 있는 612개의 백터 
 [XEIcon 라이브러리](http://xpressengine.github.io/XEIcon/)에서 자세한 내용을 볼 수 있습니다.
 
 ### Quick start 
-- 저장소 복제: git clone https://github.com/xpressengine/XEIcon.git
-- Bower를 이용한 설치: bower install xeicon
+- 저장소 복제: `git clone https://github.com/xpressengine/XEIcon.git`.
+- [Bower](http://bower.io)를 이용한 설치: `bower install xeicon`.
+- CDN by [jsDelivr](http://www.jsdelivr.com/#!xeicon): `<link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/1.0.2/xeicon.min.css">`
 
 ## License
 - 글꼴 라이선스 : SIL OFL 1.1
