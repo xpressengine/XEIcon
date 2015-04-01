@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="문자를 그리다, XEIcon">
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="http://xpressengine.github.io/XEIcon/">
+<meta property="og:image" content="http://xpressengine.github.io/XEIcon/img/sns.jpg"/>
+<meta property="og:description" content="XEIcon은 XpressEngine(CMS)에서 제공하는 아이콘 폰트 입니다. 무료로 제공되는 벡터 그래픽 아이콘으로 아름답고 직관적인 웹페이지를 만들어보세요!">
+<title>License : XEIcon</title>
+<link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:700,600' type='text/css'>
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/xeicon.css">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+<![endif]-->
+</head>
+<!-- [D] 서브 페이지일때 class="sub-type" 추가 -->
+<body class="sub-type">
+    <!-- [D] PC에서 메뉴가 움직일때 class="move-navbar" 추가 -->
+    <!-- [D] 스크롤 움직일 시 class="navbar-static-top" 을 class="navbar-fixed-top" 으로 변경 -->
+    <header class="navbar navbar-static-top transition" id="top" role="banner">
+        <p class="skip">
+            <a href="#content" onclick="document.getElementById('content').tabIndex = -1;document.getElementById('content').focus();return false;">메뉴 건너뛰기</a>
+        </p>
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                    <span class="blind">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand-wrap">
+                    <a href="index.html" class="navbar-brand transition"><span>XEICON</span></a>
+                </div>
+            </div>
+            <nav class="navbar-collapse">
+                <!-- [D] 메뉴 활성화 시 li 에 class="on" 적용 -->
+                <ul class="nav navbar-nav">
+                <li><a href="index.html" class=" transition">HOME</a></li>
+                <li><a href="started.html">GET STARTED</a></li>
+                <li>
+                    <a href="library_common.html">LIBRARY<i class="xi-angle-down"></i></a>
+                    <!-- [D] 서브 메뉴 비활성화 시 ul에 class="off" 추가, 메뉴 활성화 시 li 에 class="on" 적용 -->
+                    <ul class="nav-depth off">
+                    <li><a href="library_common.html">COMMON</a></li>
+                    <!-- [D] THIN 배포 후 추가 
+                    <li><a href="library_thin.html">THIN</a></li>
+                    -->
+                    </ul>
+                </li>
+                <li><a href="examples.html">EXAMPLES</a></li>
+                <li class="on"><a href="license.html">LICENSE</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page content of course! -->
+    <div class="sub-header" id="content">
+        <div class="container">
+            <h2 class="sub-header-tit">LICENSE</h2>
+            <div class="sub-header-content">
+                <p class="sub-header-txt">XEIcon은 OFL을 따릅니다. 영리적인 목적으로 사용해도 무방하며 추가 및 개선을 하여도 무방합니다.<br>단, 저작자가 제공하는 소스를 수정하는 경우에는 동일한 공개방침을 적용할 의무가 있습니다.</p>
+            </div>
+            <img src="img/img_license.png" class="sub-spot-img">
+        </div>
+    </div>
+    
+    <div class="container sub-contents-container">
+        <div class="sub-section sub-license">
+            <h3 class="sub-section-tit">글꼴 라이선스(Font License)</h3>
+            <hr class="half-rule">
+            <ul title="한글 상세 정보" class="info_txt_lst">
+            <li class="info_txt">다음 디렉토리에 있는 모든 데스크톱 및 웹폰트 파일에 적용: <span class="box_txt">fonts</span></li>
+            <li class="info_txt">라이선스: SIL OFL 1.1</li>
+            <li class="info_txt">URL: <a href="http://scripts.sil.org/OFL" target="_blank">http://scripts.sil.org/OFL</a></li>
+            </ul>
+            <ul title="영문 상세 정보" class="info_txt_lst">
+            <li class="info_txt">Applies to all desktop and webfont files in the following directory : <span class="box_txt">fonts</span></li>
+            <li class="info_txt">License: SIL OFL 1.1</li>
+            <li class="info_txt">URL: <a href="http://scripts.sil.org/OFL" target="_blank">http://scripts.sil.org/OFL</a></li>
+            </ul>
+        </div>
+        <div class="sub-section sub-license">
+            <h3 class="sub-section-tit">코드 라이선스(Code License)</h3>
+            <hr class="half-rule">
+            <ul title="한글 상세 정보" class="info_txt_lst">
+            <li class="info_txt">다음 디렉토리에 있는 모든 CSS 파일에 적용: <span class="box_txt">xeicon.css, xeicon.min.css</span></li>
+            <li class="info_txt">라이선스: MIT License</li>
+            <li class="info_txt">URL: <a href="http://opensource.org/licenses/mit-license.html" target="_blank">http://opensource.org/licenses/mit-license.html</a></li>
+            </ul>
+            <ul title="영문 상세 정보" class="info_txt_lst">
+            <li class="info_txt">Applies to all CSS files in the following directories : <span class="box_txt">xeicon.css, xeicon.min.css</span></li>
+            <li class="info_txt">License: MIT License</li>
+            <li class="info_txt">URL: <a href="http://opensource.org/licenses/mit-license.html" target="_blank">http://opensource.org/licenses/mit-license.html</a></li>
+            </ul>
+        </div>
+        <div class="sub-section sub-license">
+            <h3 class="sub-section-tit">문서 사용허가 규정(Documentation License)</h3>
+            <hr class="half-rule">
+            <ul title="한글 상세 정보" class="info_txt_lst">
+            <li class="info_txt">글꼴 또는 코드 라이선스에 포함되지 않은 모든 XEIcon 라이브러리 파일과 창작물에 적용</li>
+            <li class="info_txt">라이선스: CC BY 4.0</li>
+            <li class="info_txt">URL: <a href="http://opensource.org/licenses/mit-license.html" target="_blank">http://creativecommons.org/licenses/by-sa/4.0</a></li>
+            </ul>
+            <ul title="영문 상세 정보" class="info_txt_lst">
+            <li class="info_txt">Applies to all XEIcon project files that are not a part of the Font or Code licenses.</li>
+            <li class="info_txt">License: CC BY 4.0</li>
+            <li class="info_txt">URL: <a href="http://opensource.org/licenses/mit-license.html" target="_blank">http://creativecommons.org/licenses/by-sa/4.0</a></li>
+            </ul>
+        </div>
+        <div class="sub-section sub-license">
+            <h3 class="sub-section-tit">브랜드 아이콘(Brand Icons)</h3>
+            <hr class="half-rule">
+            <ul title="한글 상세 정보" class="info_txt_lst">
+            <li class="info_txt">모든 브랜드 아이콘은 해당 소유자의 상표입니다.</li>
+            <li class="info_txt">브랜드 아이콘 사용은 XEIcon에 의해 상표 승인을 받았다는 것을 의미하지 않습니다.</li>
+            </ul>
+            <ul title="영문 상세 정보" class="info_txt_lst">
+            <li class="info_txt">All brand icons are trademarks of their respective owners.</li>
+            <li class="info_txt">The use of these trademarks does not indicate endorsement of the trademark holder by XEIcon, nor viec versa.</li>
+            </ul>
+        </div>
+        <div class="sub-section sub-license last">
+            <h3 class="sub-section-tit">라이선스 문의(License FAQ)</h3>
+            <hr class="half-rule">
+            <ul title="한글 상세 정보" class="info_txt_lst">
+            <li class="info_txt">라이선스 문의사항은 깃허브 이슈에 남겨주시거나 메일로 문의바랍니다.</li>
+            <li class="info_txt">XEIcon GitHub : <a href="https://github.com/xpressengine/XEIcon/issues" target="_blank">https://github.com/xpressengine/XEIcon/issues</a></li>
+            <li class="info_txt">XEIcon e-mail : <a href="mailto:contact@xpressengine.com">contact@xpressengine.com</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <a href="#" class="btn_top"><i class="xi-angle-up"><span class="blind">위로가기</span></i></a>
+    
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <h2 class="blind">XEICON footer</h2>
+            <address class="footer-area">
+                <a href="http://www.xpressengine.com/" target="_blank" class="btn-footer-logo"><img src="img/xe-logo.png" width="150" alt="xpress engine"></a>
+                <p class="address-txt">Copyright <a href="http://www.navercorp.com/ko/index.nhn" target="_blank">ⓒNAVER Corp.</a> Supported by <a href="https://www.facebook.com/naverd2" target="_blank">D2 Program.</a></p>
+            </address>
+            <div class="sns-area">
+                <ul>
+                <li><a href="#" id="facebook"><span class="blind">facebook</span><i class="xi-facebook"></i></a></li>
+                <li><a href="#" id="twitter"><span class="blind">twitter</span><i class="xi-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script> 
+<script src="js/jquery.mktShare.1.0.0.js"></script> 
+<script src="js/xeicon.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+    
+<!-- Analytics
+================================================== -->
+    
+</html>
