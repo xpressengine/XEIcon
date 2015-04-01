@@ -47,11 +47,11 @@ for more information on SemVer, please visit http://semver.org/
 
 
 ## Maintainors
-[@juna](https://www.facebook.com/juna.junhalee), [@gunil](http://github.com/gunil)
+[@juna](https://www.facebook.com/juna.junhalee), [@gunil](http://github.com/gunil), [@marob](http://www.facebook.com/marob.99)
 
 
 ## Contributors
-[@marob](http://www.facebook.com/marob.99), [@may](https://www.facebook.com/rabbitgirl80), [@daze](http://www.facebook.com/daze325.), [@pretty758](https://www.facebook.com/haneul.kim.79656), [@LeeYoonGu](https://github.com/LeeYoonGu), [@niizguy](https://github.com/niizguy) 
+[@may](https://www.facebook.com/rabbitgirl80), [@daze](http://www.facebook.com/daze325.), [@pretty758](https://www.facebook.com/haneul.kim.79656), [@LeeYoonGu](https://github.com/LeeYoonGu), [@niizguy](https://github.com/niizguy) 
 
 
 ## Authors
