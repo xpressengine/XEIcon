@@ -14,7 +14,7 @@ To get stared, check out [http://xpressengine.github.io/XEIcon](http://xpresseng
 - Install with [Bower](http://bower.io): `bower install xeicon`.
 - CDN by [jsDelivr](http://www.jsdelivr.com/#!xeicon): `<link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/1.0.3/xeicon.min.css">`
 
-Read the [Get started page](#) for information on the framework contents, templates and examples, and more.
+Read the [Get started page](#) for information on the contents and examples, and more.
 
 
 ## License
