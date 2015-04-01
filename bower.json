@@ -1,7 +1,7 @@
 {
   "name": "xeicon",
-  "description": "XEIcon is a full suite of 612 pictographic icons for easy scalable vector graphics on websites.",
-  "version": "1.0.2",
+  "description": "Beautiful transformable iconic font made for the web.",
+  "version": "1.0.3",
   "authors": "naver",
   "keywords": ["xe","xeicon","xe-icon","icon","font"],
   "homepage": "http://xpressengine.github.io/XEIcon/",
