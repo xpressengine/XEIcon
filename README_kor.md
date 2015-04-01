@@ -1,5 +1,5 @@
 # [XEIcon v1.0.4](http://contest.xpressengine.com/templates/xe_icon/index.html)
-> [english](https://github.com/xpressengine/XEIcon/blob/1.0.3-wip/README.md)
+> [english](https://github.com/xpressengine/XEIcon/blob/1.0.4-wip/README.md)
 
 ### 한국형 아이콘 폰트 툴킷 
 웹사이트 제작에 최적화된 680개의 백터 그래픽 아이콘 툴킷입니다.
