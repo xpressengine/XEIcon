@@ -1,5 +1,5 @@
 # [XEIcon v1.0.3](http://xpressengine.github.io/XEIcon/)
-> [Korean](https://github.com/xpressengine/XEIcon/blob/master/README_kor.md)
+> [Korean](https://github.com/xpressengine/XEIcon/blob/1.0.3-wip/README_kor.md)
 
 ### The iconic font and CSS toolkit
 XEIcon is a full shite of 680 pictographic icons for easy scalable vector graphics on websites,
