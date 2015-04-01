@@ -62,4 +62,4 @@ for more information on SemVer, please visit http://semver.org/
 
 
 ## Copyright
-Copyright [ⓒNAVER Corp.](http://www.navercorp.com/ko/index.nhn) Supported by [D2 Program.](http://developer.naver.com/wiki/pages/techSupport)
+Copyright [ⓒNAVER Corp.](http://www.navercorp.com/ko/index.nhn) Supported by [D2 Program.](https://www.facebook.com/naverd2?fref=ts)
