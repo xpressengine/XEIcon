@@ -2,7 +2,7 @@
 > [english](https://github.com/xpressengine/XEIcon/blob/master/README.md)
 
 ### 한국형 아이콘 폰트 툴킷 
-웹사이트 제작에 최적화된 612개의 백터 그래픽 아이콘 툴킷입니다.
+웹사이트 제작에 최적화된 680개의 백터 그래픽 아이콘 툴킷입니다.
 한국 웹문화에 최적화된 아이콘을 제공하기 위해, [Junha,Lee](https://www.facebook.com/juna.junhalee)가 제작하였고 [XpressEngine](http://www.xpressengine.com/)에서 제공합니다.
 
 [XEIcon 공식사이트](http://xpressengine.github.io/XEIcon/)에서 자세한 내용을 볼 수 있습니다.
