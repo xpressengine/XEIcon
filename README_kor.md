@@ -1,5 +1,5 @@
 # [XEIcon v1.0.3](http://contest.xpressengine.com/templates/xe_icon/index.html)
-> [english](https://github.com/xpressengine/XEIcon/blob/1.0.3-wip/README.md)
+> [english](https://github.com/xpressengine/XEIcon/blob/master/README.md)
 
 ### 한국형 아이콘 폰트 툴킷 
 웹사이트 제작에 최적화된 680개의 백터 그래픽 아이콘 툴킷입니다.
@@ -13,7 +13,7 @@
 - [Bower](http://bower.io)를 통한 설치: `bower install xeicon`.
 - [jsDelivr](http://www.jsdelivr.com/#!xeicon) CDN 사용: `<link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/1.0.3/xeicon.min.css">`
 
-공식홈페이지 [Get started page](#)페이지에서 자세한 사용방법을 확인할 수 있습니다.
+공식홈페이지 [Get started page](http://xpressengine.github.io/XEIcon/started.html)페이지에서 자세한 사용방법을 확인할 수 있습니다.
 
 
 ## License
