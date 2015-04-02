@@ -1,5 +1,5 @@
-# [XEIcon v1.0.3](http://contest.xpressengine.com/templates/xe_icon/index.html)
-> [english](https://github.com/xpressengine/XEIcon/blob/master/README.md)
+# [XEIcon v1.0.4](http://contest.xpressengine.com/templates/xe_icon/index.html)
+> [english](https://github.com/xpressengine/XEIcon/blob/1.0.4-wip/README.md)
 
 ### 한국형 아이콘 폰트 툴킷 
 웹사이트 제작에 최적화된 680개의 백터 그래픽 아이콘 툴킷입니다.
@@ -13,7 +13,7 @@
 - [Bower](http://bower.io)를 통한 설치: `bower install xeicon`.
 - [jsDelivr](http://www.jsdelivr.com/#!xeicon) CDN 사용: `<link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/1.0.3/xeicon.min.css">`
 
-공식홈페이지 [Get started page](http://xpressengine.github.io/XEIcon/started.html)페이지에서 자세한 사용방법을 확인할 수 있습니다.
+공식홈페이지 [Get started page](#)페이지에서 자세한 사용방법을 확인할 수 있습니다.
 
 
 ## License
@@ -31,13 +31,6 @@
 - v1.0.1 - 아이콘, 라이브러리 상세수정
 - v1.0.2 - 78개 아이콘 추가
 - [v1.0.3 깃허브 마일스톤](https://github.com/xpressengine/XEIcon/issues?q=milestone%3A%22XEIcon+1.0.3%22)
-
-
-## Contributing
-XEIcon은 오픈소스 툴킷으로 다양한 전문분야 지원은 물론, 문제점 보고 및 서비스 개선에 자유롭게 참여할 수 있습니다.
-참여를 원하시는 분들은 버그 신고/제안 혹은 Pull Request 전에 [CONTRIBUTING.md](https://github.com/xpressengine/XEIcon/blob/master/CONTRIBUTING.md) 문서를 먼저 읽어주시기 바랍니다. 
-
-XEIcon은 여러분들의 다양한 참여를 기다립니다.
 
 
 ## Versioning 

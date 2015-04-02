@@ -1,5 +1,5 @@
-# [XEIcon v1.0.3](http://xpressengine.github.io/XEIcon/)
-> [Korean](https://github.com/xpressengine/XEIcon/blob/master/README_kor.md)
+# [XEIcon v1.0.4](http://xpressengine.github.io/XEIcon/)
+> [Korean](https://github.com/xpressengine/XEIcon/blob/1.0.4-wip/README_kor.md)
 
 ### The iconic font and CSS toolkit
 XEIcon is a full shite of 680 pictographic icons for easy scalable vector graphics on websites,
@@ -9,12 +9,12 @@ To get stared, check out [http://xpressengine.github.io/XEIcon](http://xpresseng
 
 
 ## Quick start
-- [Download the latest release](https://github.com/xpressengine/XEIcon/archive/v1.0.3.zip).
+- [Download the latest release](https://github.com/xpressengine/XEIcon/archive/v1.0.4.zip).
 - Clone the repo: `git clone https://github.com/xpressengine/XEIcon.git`.
 - Install with [Bower](http://bower.io): `bower install xeicon`.
-- CDN by [jsDelivr](http://www.jsdelivr.com/#!xeicon): `<link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/1.0.3/xeicon.min.css">`
+- CDN by [jsDelivr](http://www.jsdelivr.com/#!xeicon): `<link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/1.0.4/xeicon.min.css">`
 
-Read the [Get started page](http://xpressengine.github.io/XEIcon/started.html) for information on the contents and examples, and more.
+Read the [Get started page](#) for information on the contents and examples, and more.
 
 
 ## License
@@ -32,6 +32,7 @@ Read the [Get started page](http://xpressengine.github.io/XEIcon/started.html) f
 - v1.0.1 - detail fix
 - v1.0.2 - Added 78 icons
 - [v1.0.3 GitHub milestone](https://github.com/xpressengine/XEIcon/issues?q=milestone%3A%22XEIcon+1.0.3%22)
+- [v1.0.4 GitHub milestone](https://github.com/xpressengine/XEIcon/milestones/XEIcon%201.0.4)
 
 
 ## Contributing
@@ -51,7 +52,7 @@ for more information on SemVer, please visit http://semver.org/
 
 
 ## Contributors
-[@may](https://www.facebook.com/rabbitgirl80), [@daze](http://www.facebook.com/daze325.), [@pretty758](https://www.facebook.com/haneul.kim.79656), [@LeeYoonGu](https://github.com/LeeYoonGu), [@niizguy](https://github.com/niizguy) 
+[@may](https://www.facebook.com/rabbitgirl80), [@daze](http://www.facebook.com/daze325.), [@pretty758](https://www.facebook.com/haneul.kim.79656), [@LeeYoonGu](https://github.com/LeeYoonGu), [@niizguy](https://github.com/niizguy), [@jihyeok](https://www.facebook.com/jihyeok.lee.3?fref=ts)
 
 
 ## Authors
