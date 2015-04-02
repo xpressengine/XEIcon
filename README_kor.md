@@ -35,7 +35,9 @@
 
 ## Contributing
 XEIcon은 오픈소스 툴킷으로 다양한 전문분야 지원은 물론, 문제점 보고 및 서비스 개선에 자유롭게 참여할 수 있습니다.
-참여를 원하시는 분들은 버그 신고/제안 혹은 Pull Request 전에 [CONTRIBUTING.md](https://github.com/xpressengine/XEIcon/blob/master/CONTRIBUTING.md) 문서를 먼저 읽어주시기 바랍니다. XEIcon은 여러분들의 다양한 참여를 기다립니다.
+참여를 원하시는 분들은 버그 신고/제안 혹은 Pull Request 전에 [CONTRIBUTING.md](https://github.com/xpressengine/XEIcon/blob/master/CONTRIBUTING.md) 문서를 먼저 읽어주시기 바랍니다. 
+
+XEIcon은 여러분들의 다양한 참여를 기다립니다.
 
 
 ## Versioning 
