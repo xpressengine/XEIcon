@@ -18,7 +18,7 @@ code{padding:0;font-size:inherit;color:inherit;white-space:pre-wrap;background-c
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
 
 /* webfont */
-@font-face{font-family:ng;src:url(http://contest.xpressengine.com/templates/xe_icon/nanumgothic.eot);src:local('※'),url(http://contest.xpressengine.com/templates/xe_icon/nanumgothic.woff) format('woff')}
+@font-face{font-family:ng;src:url(../fonts/nanumgothic.eot);src:local('※'),url(../fonts/nanumgothic.woff) format('woff')}
 
 input[type="checkbox"],
 input[type="radio"] {
