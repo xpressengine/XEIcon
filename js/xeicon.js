@@ -184,13 +184,13 @@ var quickSearch = (function(){
 })();
 
 /* SNS 공유  */
-var sCommonMessage = "XEIcon은 XpressEngine(CMS)에서 제공하는 아이콘 폰트 입니다. 무료로 제공되는 벡터 그래픽 아이콘으로 아름답고 직관적인 웹페이지를 만들어보세요!";
+var sCommonMessage = "XEICON은 웹사이트 제작에 최적화된 백터 그래픽 아이콘 툴킷입니다. 여러분의 아름답고 직관적인 웹페이지 제작을 돕습니다.";
 var sUrl = "http://xpressengine.github.io/XEIcon/";
 
 var mkt = {};
 
 mkt.URL = sUrl;
-mkt.TITLE = "문자를 그리다, XEIcon";
+mkt.TITLE = "XEIcon, 문자를 그리다";
 mkt.COMMON_MESSAGE = sCommonMessage;
 mkt.SHORT_URL = "http://xpressengine.github.io/XEIcon/";
 
