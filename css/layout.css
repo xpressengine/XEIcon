@@ -905,7 +905,6 @@ input[type="radio"] {
 .code-box .code-txt{word-spacing:0;font-size:14px}
 
 .sub-started{margin-bottom:90px;font-family:'나눔고딕',NanumGothic,ng;font-size:15px;font-weight:600}
-.sub-started:first-child{padding-top:97px}
 .sub-started .sub-section-tit{text-align:left;letter-spacing:0}
 .sub-started .half-rule{margin:24px auto 20px 0}
 .sub-started .sub-section-sub-tit{margin:50px 0 20px;padding-bottom:20px;font-size:20px;font-weight:500;border-bottom:1px solid #e2e2e2;color:#a81b1b}
@@ -917,6 +916,8 @@ input[type="radio"] {
 .sub-started .desc-box .desc-txt{margin-bottom:8px}
 .sub-started .desc-box .deco-box{display:inline-block;padding:2px;border:1px solid #dedede;background-color:#fafafa}
 .sub-started .desc-code-box{padding-left:20px}
+.sub-started #installation{padding-top:97px}
+.sub-started #bower{margin-top:-72px;padding-top:80px}
 
 .desc-code{margin-bottom:15px;padding:0 5px;border:1px solid #f3c9c9;line-height:28px;background-color:#fff7f7}
 .desc-code code{font-family:'나눔고딕',NanumGothic,ng;font-weight:400;color:#333}
