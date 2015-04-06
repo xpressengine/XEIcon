@@ -874,6 +874,7 @@ input[type="radio"] {
 .sub-example .half-rule{margin:24px auto 24px 0}
 .sub-example .sub-page-preview{font-family:'나눔고딕',NanumGothic,ng;font-size:15px;line-height:22px;color:#373737}
 .sub-example .sub-page-preview-txt{line-height:25px}
+.sub-example .sub-page-preview-txts{font-size: 13px; line-height:25px}
 .sub-example .preview-box{display:inline-block;vertical-align:middle}
 .sub-example .preview-box.box-left{width:50px}
 .sub-example .sub-page-txt-wrap{overflow:hidden;padding-top:33px}
@@ -882,8 +883,8 @@ input[type="radio"] {
 .sub-example .sub-btn-wrap a{}
 .sub-example .sub-icon-size li{margin-bottom:2px}
 
-.sub-example .lst_group{border:1px solid #ccc;border-radius:10px}
-.sub-example .lst_group li{padding:7px 0 7px 5px;border-bottom:1px solid #ccc;font-family:'나눔고딕',NanumGothic,ng;font-size:15px}
+.sub-example .lst_group{border:1px solid #ccc;border-radius:3px}
+.sub-example .lst_group li{padding:10px 0px 10px 12px;border-bottom:1px solid #ccc;font-family:'나눔고딕',NanumGothic,ng;font-size:15px}
 .sub-example .lst_group li:last-child{border-bottom:none}
 .sub-example .lst_group li i{vertical-align:middle}
 
@@ -891,7 +892,7 @@ input[type="radio"] {
 .sub-example .sub-page-preview .xe-ul li:first-child{margin-top:0}
 
 .sub-example .lst_row{overflow:hidden}
-.sub-example .lst_row li{float:left;width:50px;height:45px;margin-right:3px;border:1px solid #c1c1c1;border-radius:10px;font-size:26px;line-height:38px;text-align:center}
+.sub-example .lst_row li{float:left;width:50px;height:45px;margin-right:3px;font-size:26px;line-height:38px;text-align:center}
 .sub-example .lst_row li i{vertical-align:middle}
 .sub-example .lst_rotate i{margin-right:7px;font-size:25px}
 .sub-example .lst_rotate li{margin-bottom:10px}
