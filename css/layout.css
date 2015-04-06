@@ -932,7 +932,7 @@ input[type="radio"] {
 .sub-license .info_txt_lst:first-child{margin-top:0}
 .sub-license .info_txt_lst .info_txt a{color:#455ede}
 .sub-license .info_txt_lst .info_txt a:hover{text-decoration:underline}
-.sub-license .info_txt_lst .info_txt .box_txt{display:inline-block;min-height:16px;padding:2px 8px 4px 8px;border:solid 1px #e1e1e1;border-radius: 2px; line-height:16px;vertical-align:middle}
+.sub-license .info_txt_lst .info_txt .box_txt{display:inline-block;min-height:16px;padding:3px 4px 3px 4px;border:solid 1px #f3f3f3;border-radius: 3px; background-color: #f3f3f3; line-height:16px;vertical-align:middle;}
 .sub-license .notice-txt-area{padding:38px 0 90px;font-size:15px;line-height:28px}
 .sub-license.last{padding-bottom:90px}
 
