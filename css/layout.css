@@ -872,24 +872,29 @@ input[type="radio"] {
 .sub-example:first-child{padding-top:76px}
 .sub-example .sub-page-header{font-family:'나눔고딕',NanumGothic,ng;font-size:21px;font-weight:500;color:#373737}
 .sub-example .half-rule{margin:24px auto 24px 0}
-.sub-example .sub-page-preview{font-family:'나눔고딕',NanumGothic,ng;font-size:15px;line-height:22px;color:#373737}
+.sub-example .sub-page-preview{font-family:'Open Sans','나눔고딕',NanumGothic,ng;font-size:14px; color:#373737}
+.sub-example .sub-page-preview2{font-family:'Open Sans','나눔고딕',NanumGothic,ng;font-size:14px; color:#373737}
+.sub-example .sub-page-preview2 li{margin-bottom:0.8em}
+.sub-page-preview .preview-box.box-left i{font-size: 20px}
 .sub-example .sub-page-preview-txt{line-height:25px}
-.sub-example .sub-page-preview-txts{font-size: 13px; line-height:25px}
+.sub-example .sub-page-preview-txts{font-size: 13px; line-height:1.8em}
+.sub-example .sub-page-preview-txts i{margin-right: .3em}
 .sub-example .preview-box{display:inline-block;vertical-align:middle}
-.sub-example .preview-box.box-left{width:50px}
+.sub-example .preview-box.box-left{width:30px}
+.sub-example .preview-box.box-left2{width:40px}
+.sub-example .preview-box.box-right{font-size:14px;}
 .sub-example .sub-page-txt-wrap{overflow:hidden;padding-top:33px}
 .sub-example .sub-page-txt{float:left;padding-bottom:17px;font-family:'나눔고딕',NanumGothic,ng;font-size:15px;font-weight:500;line-height:21px;color:#373737}
 .sub-example .sub-btn-wrap{display:none;float:right}
 .sub-example .sub-btn-wrap a{}
-.sub-example .sub-icon-size li{margin-bottom:2px}
+.sub-example .sub-icon-size li{margin-bottom:8px}
 
 .sub-example .lst_group{border:1px solid #ccc;border-radius:3px}
-.sub-example .lst_group li{padding:10px 0px 10px 12px;border-bottom:1px solid #ccc;font-family:'나눔고딕',NanumGothic,ng;font-size:15px}
+.sub-example .lst_group li{padding:10px 0px 10px 12px;border-bottom:1px solid #ccc;font-family:'Open Sans','나눔고딕',NanumGothic,ng;font-size:14px}
+.sub-example .lst_group li i{font-size: 18px}
 .sub-example .lst_group li:last-child{border-bottom:none}
 .sub-example .lst_group li i{vertical-align:middle}
 
-.sub-example .sub-page-preview .xe-ul li{margin-top:20px}
-.sub-example .sub-page-preview .xe-ul li:first-child{margin-top:0}
 
 .sub-example .lst_row{overflow:hidden}
 .sub-example .lst_row li{float:left;width:50px;height:45px;margin-right:3px;font-size:26px;line-height:38px;text-align:center}
