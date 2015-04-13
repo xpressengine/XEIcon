@@ -878,7 +878,6 @@ input[type="radio"] {
 .sub-page-preview .preview-box.box-left i{font-size: 20px}
 .sub-example .sub-page-preview-txt{line-height:25px}
 .sub-example .sub-page-preview-txts{font-size: 13px; line-height:1.8em}
-.sub-example .sub-page-preview-txts i{margin-right: .3em}
 .sub-example .preview-box{display:inline-block;vertical-align:middle}
 .sub-example .preview-box.box-left{width:30px}
 .sub-example .preview-box.box-left2{width:40px}
@@ -899,7 +898,7 @@ input[type="radio"] {
 .sub-example .lst_row{overflow:hidden}
 .sub-example .lst_row li{float:left;width:50px;height:45px;margin-right:3px;font-size:26px;line-height:38px;text-align:center}
 .sub-example .lst_row li i{vertical-align:middle}
-.sub-example .lst_rotate i{margin-right:7px;font-size:25px}
+.sub-example .lst_rotate i{margin-right:7px;font-size:25px;vertical-align: middle}
 .sub-example .lst_rotate li{margin-bottom:10px}
 
 .code-box{padding:14px 20px 13px 20px;font-size:14px;font-weight:600;line-height:26px;background-color:#f3f3f3;color:#373737;word-spacing:2px}
@@ -984,7 +983,7 @@ input[type="radio"] {
 .sub-type .navbar .navbar-brand{color:#373737}
 .sub-type .navbar .nav > li > a{color:#a3a3a3}
 .sub-type .navbar .nav > li.on > a,.sub-type .navbar .nav > li > a:hover,.sub-type .navbar .nav > li > a:focus{color:#373737}
-.sub-type .navbar .nav .nav-depth > li > a{background-color:#373737;color:#727272}
+.sub-type .navbar .nav .nav-depth > li > a{background-color:#373737;color:#999}
 .sub-type .navbar .nav .nav-depth > li.on > a,.sub-type .navbar .nav .nav-depth > li > a:hover,.sub-type .navbar .nav .nav-depth > li > a:focus{color:#fff}
 
 .move-navbar{min-height:60px;background-color:#fff}
