@@ -1,5 +1,5 @@
-# [XEIcon v1.0.4](http://xpressengine.github.io/XEIcon/)
-> [Korean](https://github.com/xpressengine/XEIcon/blob/1.0.4-wip/README_kor.md)
+# [XEIcon v2.0.0](http://xpressengine.github.io/XEIcon/)
+> [Korean](https://github.com/xpressengine/XEIcon/blob/2.0.0-wip/README_kor.md)
 
 ### The iconic font and CSS toolkit
 XEIcon is a full shite of 680 pictographic icons for easy scalable vector graphics on websites,
@@ -9,25 +9,25 @@ To get stared, check out [http://xpressengine.github.io/XEIcon](http://xpresseng
 
 
 ## Quick start
-- [Download the latest release](https://github.com/xpressengine/XEIcon/archive/v1.0.4.zip).
+- [Download the latest release](https://github.com/xpressengine/XEIcon/archive/v2.0.0.zip).
 - Clone the repo: `git clone https://github.com/xpressengine/XEIcon.git`.
 - Install with [Bower](http://bower.io): `bower install xeicon`.
-- CDN by [jsDelivr](http://www.jsdelivr.com/#!xeicon): `<link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/1.0.4/xeicon.min.css">`
+- CDN by [jsDelivr](http://www.jsdelivr.com/#!xeicon): `<link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/2.0.0/xeicon.min.css">`
 
 Read the [Get started page](#) for information on the contents and examples, and more.
 
 
 ## License
 - The XEIcon font is licensed under SIL OFL 1.1 :
-	- http://scripts.sil.org/OFL
+    - http://scripts.sil.org/OFL
 - XEIcon CSS, LESS, and SASS files are licensed under the MIT License :
-	- http://opensource.org/licenses/mit-license.html
+    - http://opensource.org/licenses/mit-license.html
 - The XEIcon documentation is licensed under the CC BY 4.0 License :
-	- http://creativecommons.org/licenses/by-sa/4.0
+    - http://creativecommons.org/licenses/by-sa/4.0
 - Full detail : http://xpressengine.github.io/XEIcon/xe_icon_license.html
 
 
-## Changelog 
+## Changelog
 - v1.0 - Basic icons added, optimized for 24px default
 - v1.0.1 - detail fix
 - v1.0.2 - Added 78 icons
@@ -39,7 +39,7 @@ Read the [Get started page](#) for information on the contents and examples, and
 Please read through our [contributing guidelines](https://github.com/xpressengine/XEIcon/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
 
-## Versioning 
+## Versioning
 XEIcon will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:
 
 `<major>.<minor>.<patch>`
