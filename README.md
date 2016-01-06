@@ -46,7 +46,7 @@ for more information on SemVer, please visit http://semver.org/
 [@LeeYoonGu](https://github.com/LeeYoonGu), [@marob](https://www.facebook.com/marob.99).
 
 
-## Authors
+## Author
 - Email : lee_junha@xpressengine.com
 - Facebook : https://www.facebook.com/juna.junhalee
 - GitHub : https://github.com/junnaa
