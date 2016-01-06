@@ -1,18 +1,30 @@
 # [XEIcon v2.0.0](http://xpressengine.github.io/XEIcon/)
-> [Korean](https://github.com/xpressengine/XEIcon/blob/2.0.0-wip/README_kor.md)
+[한글 문서 바로가기 →](https://github.com/xpressengine/XEIcon/blob/2.0.0-wip/README_kor.md)
 
 ### The iconic font and CSS toolkit
 XEIcon is a full shite of 820 pictographic icons for easy scalable vector graphics on websites,
-created by [Junha,Lee](https://www.facebook.com/juna.junhalee), and maintained by [XpressEngine](http://www.xpressengine.com).
+created by designer, [Lee Junha](https://github.com/junnaa), and maintained by [XpressEngine](http://www.xpressengine.com).
 
 To get stared, check out [http://xpressengine.github.io/XEIcon](http://xpressengine.github.io/XEIcon)!
 
 
 ## Getting icons
 - [Download the latest release](https://github.com/xpressengine/XEIcon/archive/v2.0.0.zip).
-- Clone the repo: `$ git clone https://github.com/xpressengine/XEIcon.git`.
-- Install with [Bower](http://bower.io): `$ bower install XEIcon`.
-- CDN by [jsDelivr](http://www.jsdelivr.com/#!xeicon): `<link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/2.0.0/xeicon.min.css">`
+- Clone the repo: 
+```
+$ git clone https://github.com/xpressengine/XEIcon.git
+```
+
+- Install with [Bower](http://bower.io): 
+```
+$ bower install XEIcon
+```
+
+- CDN by [jsDelivr](http://www.jsdelivr.com/#!xeicon): 
+```html
+<link href="//cdn.jsdelivr.net/xeicon/2.0.0/xeicon.min.css"
+      rel="stylesheet">
+```
 
 Read the [Get started page](http://xpressengine.github.io/XEIcon/started.html) for information on the contents and examples, and more.
 
@@ -39,14 +51,14 @@ for more information on SemVer, please visit http://semver.org/
 
 
 ## Maintainors
-[@juna](https://github.com/junnaa), [@gunil](http://github.com/gunil). [@bnu](https://github.com/bnu).
+[@juna](https://github.com/junnaa), [@gunil](http://github.com/gunil), [@bnu](https://github.com/bnu).
 
 
 ## Contributors
 [@LeeYoonGu](https://github.com/LeeYoonGu), [@marob](https://www.facebook.com/marob.99).
 
 
-## Author
+## Authors
 - Email : lee_junha@xpressengine.com
 - Facebook : https://www.facebook.com/juna.junhalee
 - GitHub : https://github.com/junnaa
