@@ -37,7 +37,7 @@ $ bower install xeicon
 - v1.0.2 - 78개 아이콘 추가
 - [v1.0.3 GitHub milestone](https://github.com/xpressengine/XEIcon/issues?q=milestone%3A%22XEIcon+1.0.3%22)
 - [v1.0.4 GitHub milestone](https://github.com/xpressengine/XEIcon/milestones/XEIcon%201.0.4)
-- [v2.0.0 Github milestone](https://github.com/xpressengine/XEIcon/milestones/XEIcon%202.1) - Change all icons style
+- [v2.0.0 Github milestone](https://github.com/xpressengine/XEIcon/milestones/XEIcon%202.1) - 아이콘 스타일 및 라이브러리 변경
 
 
 ## 버전 관리
