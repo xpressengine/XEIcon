@@ -1,4 +1,4 @@
-# [XEIcon v2.1.!](http://xpressengine.github.io/XEIcon/)
+# [XEIcon v2.1.1](http://xpressengine.github.io/XEIcon/)
 [Go to English version →](https://github.com/xpressengine/XEIcon/blob/master/README.md)
 
 ### 오픈소스 아이콘 폰트 툴킷
