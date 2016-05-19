@@ -1,5 +1,6 @@
-# [XEIcon v2.0.0](http://xpressengine.github.io/XEIcon/)
-[한글 문서 바로가기 →](https://github.com/xpressengine/XEIcon/blob/2.0.0-wip/README_kor.md)
+# [XEIcon v2.1.1](http://xpressengine.github.io/XEIcon/)
+[한글 문서 바로가기 →](https://github.com/xpressengine/XEIcon/blob/master/README_kor.md)
+
 
 ### The iconic font and CSS toolkit
 XEIcon is a full shite of 820 pictographic icons for easy scalable vector graphics on websites,
@@ -8,12 +9,11 @@ created by designer, [Lee Junha](https://github.com/junnaa), and maintained by [
 To get stared, check out [http://xpressengine.github.io/XEIcon](http://xpressengine.github.io/XEIcon)!
 
 
-## Getting icons
-- [Download the latest release](https://github.com/xpressengine/XEIcon/archive/v2.0.0.zip).
-- Clone the repo: 
-```
-$ git clone https://github.com/xpressengine/XEIcon.git
-```
+## Quick start
+- [Download the latest release](https://github.com/xpressengine/XEIcon/archive/master.zip).
+- Clone the repo: `git clone https://github.com/xpressengine/XEIcon.git`.
+- Install with [Bower](http://bower.io): `bower install xeicon`.
+- CDN by [jsDelivr](http://www.jsdelivr.com/#!xeicon): `<link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/2.1.1/xeicon.min.css">`
 
 - Install with [Bower](http://bower.io): 
 ```
