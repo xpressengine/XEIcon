@@ -853,9 +853,10 @@ input[type="radio"] {
 .sub-icon-wrap .sub-header-tit{letter-spacing:5px}
 .sub-icon-wrap .sub-section-tit{clear:both;padding-top:93px;letter-spacing:2px}
 
-.fillter{padding-top:92px;padding-bottom:100px;background-color:#f9f9f9}
-.fillter .sub-header-tit{letter-spacing:5px}
+.filter{display:none; padding-top:92px;background-color:#f9f9f9}
+.filter .sub-header-tit{letter-spacing:5px}
 .search-txt{letter-spacing:2px}
+.no-search-result {display: none;padding-bottom:100px;}
 .no-search-result .no-search-notice{margin-bottom:42px;font-size:18px;font-family:'나눔고딕',NanumGothic,ng;line-height:34px;text-align:center;color:#373737}
 .no-search-result .no-search-notice .search-txt{font-family:'Open Sans','나눔고딕',NanumGothic,ng,'돋움',dotum,AppleGothic,sans-serif;font-weight:700}
 .no-search-result .btn-github{border-color:#373737;color:#373737}
@@ -863,6 +864,10 @@ input[type="radio"] {
 
 /* xe icon */
 .glyph{overflow:hidden;float:left;width:50%;height:90px;margin-bottom:30px;padding-bottom:0;font-size:16px;text-align:center}
+.glyph {
+  padding: 10px;
+}
+.unicode {font-family: xeicon; font-size: 32px; display: block;}
 .fs1{font-size:32px;color:#000}
 .mls{display:block;font-size:13px;margin-top:4px;color:#000}
 .clearfix:before,.clearfix:after{display:table;content:''}

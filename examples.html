@@ -11,10 +11,10 @@
 <meta property="og:description" content="XEICON은 웹사이트 제작에 최적화된 벡터 그래픽 아이콘 툴킷입니다. 여러분의 아름답고 직관적인 웹페이지 제작을 돕습니다.">
 <title>Examples : XEIcon</title>
 <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:700,600' type='text/css'>
-<link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/1.0.4/xeicon.min.css">
-<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/2.1.2/xeicon.min.css">
+<link rel="stylesheet" href="2.1.2/assets/css/layout.css">
 <!-- favicon for XEIcon -->
-<link rel="shortcut icon" href="img/favicon.ico">
+<link rel="shortcut icon" href="2.1.2/assets/img/favicon.ico">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
   <script src="js/html5shiv.min.js"></script>
@@ -50,10 +50,11 @@
                 <li><a href="index.html" class=" transition">HOME</a></li>
                 <li><a href="started.html">GET STARTED</a></li>
                 <li>
-                    <a href="library_common.html">LIBRARY<i class="xi-angle-down"></i></a>
+                    <a href="2.1.2/library_common.html">LIBRARY<i class="xi-angle-down"></i></a>
                     <!-- [D] 서브 메뉴 비활성화 시 ul에 class="off" 추가, 메뉴 활성화 시 li 에 class="on" 적용 -->
                     <ul class="nav-depth off">
-                    <li><a href="library_common.html">COMMON PACK</a></li>
+                        <li><a href="2.1.2/library_common.html">2.1.2</a></li>
+                        <li><a href="1.0.4/library_common.html">1.0.4</a></li>
                     <!-- [D] THIN 배포 후 추가
                     <li><a href="library_thin.html">THIN</a></li>
                     -->
@@ -71,9 +72,9 @@
         <div class="container">
             <h2 class="sub-header-tit">EXAMPLES</h2>
             <div class="sub-header-content">
-                <p class="sub-header-txt">예제에 소개된 클래스를 이용하여 각 기능을 손쉽게 이용할 수 있습니다.<br>LESS SASS를 이용한 커스터마이징도 가능합니다.</p>
+                <p class="sub-header-txt">예제에 소개된 클래스를 이용하여 각 기능을 손쉽게 이용할 수 있습니다.</p>
             </div>
-            <img src="img/img_examples.png" class="sub-spot-img">
+            <img src="2.1.2/assets/img/img_examples.png" class="sub-spot-img">
         </div>
     </div>
 
@@ -97,8 +98,6 @@
                     <div class="sub-page-txt-wrap">
                         <p class="sub-page-txt">i 태그내에 xe 아이콘 명을 클래스로 기재합니다.</p>
                         <div class="sub-btn-wrap">
-                            <a href="https://github.com/xpressengine/XEIcon/blob/v1.0.4/less/core.less" target="_blank">View LESS</a>
-                            <a href="https://github.com/xpressengine/XEIcon/blob/v1.0.4/scss/_core.scss" target="_blank">View SASS</a>
                         </div>
                     </div>
                     <div class="code-box">
@@ -117,7 +116,7 @@
                         <ul class="sub-icon-size">
                         <li>
                             <span class="preview-box box-right">
-                                <i class="xi-wink-face xi-x"></i>
+                                <i class="xi-face xi-x"></i>
                             </span>
                             <span class="preview-box box-left2">
                                 xi-x
@@ -125,7 +124,7 @@
                         </li>
                         <li>
                             <span class="preview-box box-right">
-                                <i class="xi-wink-face xi-2x"></i>
+                                <i class="xi-face xi-2x"></i>
                             </span>
                             <span class="preview-box box-left2">
                                 xi-2x
@@ -133,7 +132,7 @@
                         </li>
                         <li>
                             <span class="preview-box box-right">
-                                <i class="xi-wink-face xi-3x"></i>
+                                <i class="xi-face xi-3x"></i>
                             </span>
                             <span class="preview-box box-left2">
                                 xi-3x
@@ -141,7 +140,7 @@
                         </li>
                         <li>
                             <span class="preview-box box-right">
-                                <i class="xi-wink-face xi-4x"></i>
+                                <i class="xi-face xi-4x"></i>
                             </span>
                             <span class="preview-box box-left2">
                                 xi-4x
@@ -149,7 +148,7 @@
                         </li>
                         <li>
                             <span class="preview-box box-right">
-                                <i class="xi-wink-face xi-5x"></i>
+                                <i class="xi-face xi-5x"></i>
                             </span>
                             <span class="preview-box box-left2">
                                 xi-5x
@@ -162,16 +161,14 @@
                     <div class="sub-page-txt-wrap">
                         <p class="sub-page-txt">클래스에 따라 아이콘의 크기를 조절할 수 있습니다.</p>
                         <div class="sub-btn-wrap">
-                            <a href="https://github.com/xpressengine/XEIcon/blob/v1.0.4/less/lager.less" target="_blank">View LESS</a>
-                            <a href="https://github.com/xpressengine/XEIcon/blob/v1.0.4/scss/_larger.scss" target="_blank">View SASS</a>
                         </div>
                     </div>
                     <div class="code-box">
-                        <code><span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-wink-face xi-x"</span><span class="code-tag">&gt;&lt;/i&gt;</span> xi-x
-<span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-wink-face xi-2x"</span><span class="code-tag">&gt;&lt;/i&gt;</span> xi-2x
-<span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-wink-face xi-3x"</span><span class="code-tag">&gt;&lt;/i&gt;</span> xi-3x
-<span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-wink-face xi-4x"</span><span class="code-tag">&gt;&lt;/i&gt;</span> xi-4x
-<span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-wink-face xi-5x"</span><span class="code-tag">&gt;&lt;/i&gt;</span> xi-5x</code>
+                        <code><span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-face xi-x"</span><span class="code-tag">&gt;&lt;/i&gt;</span> xi-x
+<span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-face xi-2x"</span><span class="code-tag">&gt;&lt;/i&gt;</span> xi-2x
+<span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-face xi-3x"</span><span class="code-tag">&gt;&lt;/i&gt;</span> xi-3x
+<span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-face xi-4x"</span><span class="code-tag">&gt;&lt;/i&gt;</span> xi-4x
+<span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-face xi-5x"</span><span class="code-tag">&gt;&lt;/i&gt;</span> xi-5x</code>
                     </div>
                 </div>
             </div>
@@ -195,8 +192,6 @@
                     <div class="sub-page-txt-wrap">
                         <p class="sub-page-txt">&ldquo;xi-fw&rdquo; 클래스를 통해 서로 다른 아이콘들의 넓이값을 고정합니다.</p>
                         <div class="sub-btn-wrap">
-                            <a href="https://github.com/xpressengine/XEIcon/blob/v1.0.4/less/fixed-width.less" target="_blank">View LESS</a>
-                            <a href="https://github.com/xpressengine/XEIcon/blob/v1.0.4/scss/_fixed-width.scss" target="_blank">View SASS</a>
                         </div>
                     </div>
                     <div class="code-box">
@@ -218,10 +213,10 @@
                     <hr class="half-rule">
                     <div class="sub-page-preview2">
                         <ul class="xi-ul">
-                        <li><i class="xi-info-triangle xi-li"></i> List Icons</li>
-                        <li><i class="xi-information-circle xi-li"></i> can be used</li>
-                        <li><i class="xi-check-box xi-li"></i> as bullets</li>
-                        <li><i class="xi-check-circle xi-li"></i> in lists</li>
+                        <li><i class="xi-list xi-li"></i> List Icons</li>
+                        <li><i class="xi-info-o xi-li"></i> can be used</li>
+                        <li><i class="xi-check-circle-o xi-li"></i> as bullets</li>
+                        <li><i class="xi-emoticon-happy-o xi-li"></i> in lists</li>
                         </ul>
                     </div>
                 </div>
@@ -229,16 +224,14 @@
                     <div class="sub-page-txt-wrap">
                         <p class="sub-page-txt">클래스 &ldquo;xi-ul&rdquo;, &ldquo;xi-li&rdquo;를 사용하여 기본 list-type을 대체하여 사용할 수 있습니다.</p>
                         <div class="sub-btn-wrap">
-                            <a href="https://github.com/xpressengine/XEIcon/blob/v1.0.4/less/list.less" target="_blank">View LESS</a>
-                            <a href="https://github.com/xpressengine/XEIcon/blob/v1.0.4/scss/_list.scss" target="_blank">View SASS</a>
                         </div>
                     </div>
                     <div class="code-box">
                         <code><span class="code-tag">&lt;ul</span> <span class="code-class">class=</span><span class="code-class-name">"xi-ul"</span><span class="code-tag">&gt;</span>
-<span class="code-tag">&lt;li&gt;&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-info-triangle xi-li"</span><span class="code-tag">&gt;&lt;/i&gt;List Icons&lt;/li&gt;</span>
-<span class="code-tag">&lt;li&gt;&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-information-circle xi-li"</span><span class="code-tag">&gt;&lt;/i&gt;can be used&lt;/li&gt;</span>
-<span class="code-tag">&lt;li&gt;&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-check-box xi-li"</span><span class="code-tag">&gt;&lt;/i&gt;as bullets&lt;/li&gt;</span>
-<span class="code-tag">&lt;li&gt;&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-check-circle xi-li"</span><span class="code-tag">&gt;&lt;/i&gt;in lists&lt;/li&gt;</span>
+<span class="code-tag">&lt;li&gt;&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-list xi-li"</span><span class="code-tag">&gt;&lt;/i&gt;List Icons&lt;/li&gt;</span>
+<span class="code-tag">&lt;li&gt;&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-info-o xi-li"</span><span class="code-tag">&gt;&lt;/i&gt;can be used&lt;/li&gt;</span>
+<span class="code-tag">&lt;li&gt;&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-check-circle-o xi-li"</span><span class="code-tag">&gt;&lt;/i&gt;as bullets&lt;/li&gt;</span>
+<span class="code-tag">&lt;li&gt;&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-emoticon-happy-o xi-li"</span><span class="code-tag">&gt;&lt;/i&gt;in lists&lt;/li&gt;</span>
 <span class="code-tag">&lt;/ul&gt;</span></code>
                     </div>
                 </div>
@@ -262,8 +255,6 @@
                     <div class="sub-page-txt-wrap">
                         <p class="sub-page-txt">&ldquo;xi-border&rdquo;와 &ldquo;pull-left&rdquo; 또는 &ldquo;pull-right&rdquo;를 사용하여 문장에 앞에 쓰일 수 있는 아이콘의 보더 효과와 들여쓰기를 이용할 수 있습니다.</p>
                         <div class="sub-btn-wrap">
-                            <a href="https://github.com/xpressengine/XEIcon/blob/v1.0.4/less/bordered-pulled.less" target="_blank">View LESS</a>
-                            <a href="https://github.com/xpressengine/XEIcon/blob/v1.0.4/scss/_bordered-pulled.scss" target="_blank">View SASS</a>
                         </div>
                     </div>
                     <div class="code-box">
@@ -281,10 +272,11 @@
                     <hr class="half-rule">
                     <div class="sub-page-preview">
                         <ul class="lst_row">
-                        <li><i class="xi-spinner-5 xi-spin"></i></li>
-                        <li><i class="xi-record-play xi-spin"></i></li>
-                        <li><i class="xi-snow xi-spin"></i></li>
+                        <li><i class="xi-spinner-1 xi-spin"></i></li>
+                        <li><i class="xi-spinner-2 xi-spin"></i></li>
+                        <li><i class="xi-spinner-3 xi-spin"></i></li>
                         <li><i class="xi-spinner-4 xi-spin"></i></li>
+                        <li><i class="xi-spinner-5 xi-spin"></i></li>
                         </ul>
                     </div>
                 </div>
@@ -292,15 +284,14 @@
                     <div class="sub-page-txt-wrap">
                         <p class="sub-page-txt">클래스 &ldquo;xi-spin&rdquo;을 사용하여 xe에서 제공하는 아이콘을 자동회전 시킬 수 있습니다.</p>
                         <div class="sub-btn-wrap">
-                            <a href="https://github.com/xpressengine/XEIcon/blob/v1.0.4/less/spinning.less" target="_blank">View LESS</a>
-                            <a href="https://github.com/xpressengine/XEIcon/blob/v1.0.4/scss/_spinning.scss" target="_blank">View SASS</a>
                         </div>
                     </div>
                     <div class="code-box">
-                        <code><span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-spinner-5 xi-spin"</span><span class="code-tag">&gt;&lt;/i&gt;</span>
-<span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-record-play xi-spin"</span><span class="code-tag">&gt;&lt;/i&gt;</span>
-<span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-snow xi-spin"</span><span class="code-tag">&gt;&lt;/i&gt;</span>
-<span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-spinner-4 xi-spin"</span><span class="code-tag">&gt;&lt;/i&gt;</span>                        </code>
+                        <code><span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-spinner-1 xi-spin"</span><span class="code-tag">&gt;&lt;/i&gt;</span>
+<span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-spinner-2 xi-spin"</span><span class="code-tag">&gt;&lt;/i&gt;</span>
+<span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-spinner-3 xi-spin"</span><span class="code-tag">&gt;&lt;/i&gt;</span>
+<span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-spinner-4 xi-spin"</span><span class="code-tag">&gt;&lt;/i&gt;</span>
+<span class="code-tag">&lt;i</span> <span class="code-class">class=</span><span class="code-class-name">"xi-spinner-5 xi-spin"</span>&gt;&lt;/i&gt;                        </code>
                     </div>
                 </div>
             </div>
@@ -313,12 +304,12 @@
                     <hr class="half-rule">
                     <div class="sub-page-preview">
                         <ul class="lst_rotate">
-                        <li><i class="xi-note"></i>normal</li>
-                        <li><i class="xi-note xi-rotate-90"></i> xi-rotate-90</li>
-                        <li><i class="xi-note xi-rotate-180"></i> xi-rotate-180</li>
-                        <li><i class="xi-note xi-rotate-270"></i> xi-rotate-270</li>
-                        <li><i class="xi-note xi-flip-horizontal"></i> xi-flip-horizontal</li>
-                        <li><i class="xi-note xi-flip-vertical"></i> xi-flip-vertical</li>
+                        <li><i class="xi-note-o"></i>normal</li>
+                        <li><i class="xi-note-o xi-rotate-90"></i> xi-rotate-90</li>
+                        <li><i class="xi-note-o xi-rotate-180"></i> xi-rotate-180</li>
+                        <li><i class="xi-note-o xi-rotate-270"></i> xi-rotate-270</li>
+                        <li><i class="xi-note-o xi-flip-horizontal"></i> xi-flip-horizontal</li>
+                        <li><i class="xi-note-o xi-flip-vertical"></i> xi-flip-vertical</li>
                         </ul>
                     </div>
                 </div>
@@ -326,8 +317,6 @@
                     <div class="sub-page-txt-wrap">
                         <p class="sub-page-txt">원하는 각도 및 반전 효과를 각 클래스를 추가하여 이용할 수 있습니다.</p>
                         <div class="sub-btn-wrap">
-                            <a href="https://github.com/xpressengine/XEIcon/blob/v1.0.4/less/rotated-filipped.less" target="_blank">View LESS</a>
-                            <a href="https://github.com/xpressengine/XEIcon/blob/v1.0.4/scss/_rotated-flipped.scss" target="_blank">View SASS</a>
                         </div>
                     </div>
                     <div class="code-box">
@@ -353,7 +342,7 @@
         <div class="container">
             <h2 class="blind">XEICON footer</h2>
             <address class="footer-area">
-                <a href="http://www.xpressengine.com/" target="_blank" class="btn-footer-logo"><img src="img/xe-logo.png" width="150" alt="xpress engine"></a>
+                <a href="http://www.xpressengine.com/" target="_blank" class="btn-footer-logo"><img src="2.1.2/assets/img/xe-logo.png" width="150" alt="xpress engine"></a>
                 <p class="address-txt">Copyright <a href="http://www.navercorp.com/ko/index.nhn" target="_blank">ⓒNAVER Corp.</a> Supported by <a href="https://www.facebook.com/naverd2" target="_blank">D2 Program.</a></p>
             </address>
             <!-- sns 공유버튼 카운팅 개발 후 노출
@@ -369,8 +358,8 @@
 </body>
 
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="js/jquery.mktShare.1.0.0.js"></script>
-<script src="js/xeicon.js"></script>
+<script src="2.1.2/assets/js/jquery.mktShare.1.0.0.js"></script>
+<script src="2.1.2/assets/js/xeicon.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
 
