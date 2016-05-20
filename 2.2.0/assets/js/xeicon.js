@@ -11,9 +11,9 @@
                 $(".spot-box-img").css("height","330px");
                 $(".spot-img").addClass("m-spot");
             } else if(innerWidth < 769) {
-                $(".spot-img").attr("src","./2.1.2/assets/img/img_main_m.jpg");
+                $(".spot-img").attr("src","./2.2.0/assets/img/img_main_m.jpg");
             } else if(innerWidth > 769) {
-                $(".spot-img").attr("src","./2.1.2/assets/img/img_main.jpg");
+                $(".spot-img").attr("src","./2.2.0/assets/img/img_main.jpg");
             }
 
             if(wScrollTop > 20) {
