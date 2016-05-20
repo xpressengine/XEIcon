@@ -1,4 +1,4 @@
-# [XEIcon v2.1.2](http://xpressengine.github.io/XEIcon/)
+# [XEIcon](http://xpressengine.github.io/XEIcon/)
 [Go to English version →](https://github.com/xpressengine/XEIcon/blob/master/README.md)
 
 ### 오픈소스 아이콘 폰트 툴킷
@@ -25,7 +25,7 @@ $ bower install xeicon
 - [jsDelivr](http://www.jsdelivr.com/#!xeicon) CDN: 
 
 ```html
-<link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/2.1.2/xeicon.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/2/xeicon.min.css">
 ```
 
 공식홈페이지 [Get started page](http://xpressengine.github.io/XEIcon/started.html)페이지에서 자세한 사용방법을 확인할 수 있습니다.
