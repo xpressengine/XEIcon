@@ -1,16 +1,16 @@
 /*!
-*  XEIcon 2.1.2 by @NAVER - http://xpressengine.github.io/XEIcon/ - @XEIcon
+*  XEIcon 2.2.0 by @NAVER - http://xpressengine.github.io/XEIcon/ - @XEIcon
 *  License - http://xpressengine.github.io/XEIcon/license.html (Font: SIL OFL 1.1, CSS: MIT License)
 */
 
 @font-face {
     font-family: 'xeicon';
-    src:url('fonts/xeicon.eot?v=2.1.2');
-    src:url('fonts/xeicon.eot?#iefix&v=2.1.2') format('embedded-opentype'),
-        url('fonts/xeicon.woff2?v=2.1.2') format('woff2'),
-        url('fonts/xeicon.woff?v=2.1.2') format('woff'),
-        url('fonts/xeicon.ttf?v=2.1.2') format('truetype'),
-        url('fonts/xeicon.svg?v=2.1.2#xeicon') format('svg');
+    src:url('fonts/xeicon.eot?v=2.2.0');
+    src:url('fonts/xeicon.eot?#iefix&v=2.2.0') format('embedded-opentype'),
+        url('fonts/xeicon.woff2?v=2.2.0') format('woff2'),
+        url('fonts/xeicon.woff?v=2.2.0') format('woff'),
+        url('fonts/xeicon.ttf?v=2.2.0') format('truetype'),
+        url('fonts/xeicon.svg?v=2.2.0#xeicon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -46,7 +46,7 @@ i {
 .xi-angle-left-thin:before {
     content: "\e93d";
 }
-.xi-angle-min:before {
+.xi-angle-left-min:before {
     content: "\e93c";
 }
 .xi-angle-right:before {
@@ -631,7 +631,7 @@ i {
 .xi-users-o:before {
     content: "\ea04";
 }
-.xi-users-plus-o:before {
+.xi-users-plus:before {
     content: "\ea17";
 }
 .xi-video-call:before {
@@ -958,13 +958,13 @@ i {
 .xi-airplay:before {
     content: "\eac0";
 }
-.xi-alarm2:before {
+.xi-alarm-clock:before {
     content: "\eac1";
 }
-.xi-alarm-o2:before {
+.xi-alarm-clock-o:before {
     content: "\eac2";
 }
-.xi-alarm-off2:before {
+.xi-alarm-clock-off:before {
     content: "\eac3";
 }
 .xi-alt:before {
@@ -1900,7 +1900,7 @@ i {
 .xi-javascript:before {
     content: "\eb87";
 }
-.xi-language-csharp:before {
+.xi-csharp:before {
     content: "\eb88";
 }
 .xi-laravel:before {
@@ -1960,10 +1960,10 @@ i {
 .xi-sitemap-o:before {
     content: "\eb99";
 }
-.xi-windows:before {
+.xi-browser:before {
     content: "\e9db";
 }
-.xi-windows-text:before {
+.xi-browser-text:before {
     content: "\e9dc";
 }
 .xi-spinner-1:before {
@@ -2473,7 +2473,7 @@ i {
 .xi-wikipedia:before {
     content: "\ec28";
 }
-.xi-windows2:before {
+.xi-windows:before {
     content: "\ec29";
 }
 .xi-wordpress:before {
