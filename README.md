@@ -49,19 +49,17 @@ XEIcon library will be maintained under the Semantic Versioning guidelines as mu
 for more information on SemVer, please visit http://semver.org/
 
 
-## Maintainors
-[@juna](https://github.com/junnaa), [@gunil](http://github.com/gunil), [@bnu](https://github.com/bnu).
-
-
 ## Contributors
-[@LeeYoonGu](https://github.com/LeeYoonGu), [@marob](https://www.facebook.com/marob.99).
-
+[@juna](https://github.com/junnaa), [@gunil](http://github.com/gunil), [@LeeYoonGu](https://github.com/LeeYoonGu), [@marob](https://www.facebook.com/marob.99).
 
 ## Authors
-- Email : lee_junha@xpressengine.com
 - Facebook : https://www.facebook.com/juna.junhalee
 - GitHub : https://github.com/junnaa
 
+## Copyright
+Copyright [Naver Corp](http://www.navercorp.com).
+
+developers@xpressengine.com
 
 ## License
 - The XEIcon font is licensed under SIL OFL 1.1 :

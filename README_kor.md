@@ -48,19 +48,18 @@ XEIcon은 시맨틱 버전 지침을 따릅니다. 버전은 다음과 같은 �
 시멘틱버전에 관한 자세한 정보는 링크를 확인하시기 바랍니다. http://semver.org/
 
 
-## 운영자
-[@junnaa](https://github.com/junnaa), [@gunil](http://github.com/gunil). [@bnu](https://github.com/bnu).
-
-
 ## 공헌자
-[@LeeYoonGu](https://github.com/LeeYoonGu), [@marob](https://www.facebook.com/marob.99).
+[@juna](https://github.com/junnaa), [@gunil](http://github.com/gunil), [@LeeYoonGu](https://github.com/LeeYoonGu), [@marob](https://www.facebook.com/marob.99).
 
 
 ## 제작자
-- Email: lee_junha@xpressengine.com
 - Facebook: https://www.facebook.com/juna.junhalee
 - GitHub: https://github.com/junnaa
 
+## 저작권
+Copyright [Naver Corp](http://www.navercorp.com)
+
+developers@xpressengine.com
 
 ## 라이선스
 - 글꼴 라이선스, SIL OFL 1.1:
