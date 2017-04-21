@@ -1,0 +1,88 @@
+{# examples.twig #}
+{% extends "layout.twig" %}
+
+{% block xeicon %}
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/xeicon/{{ version }}/xeicon.min.css">
+{% endblock %}
+
+{% block subHeader %}
+<h2 class="sub-header-tit">XEIcon Common <small>(Ver{{ version }})</small></h2>
+<div class="sub-header-content">
+    <p class="sub-header-txt">4px 라인 아이콘으로 구성된 XEICon Common은 24 x 24px 그리드 위에 작업 된 벡터 아이콘입니다.<br>둥근 곡선과 간결한 디자인의 아이콘 폰트를 만나보세요.</p>
+</div>
+<img src="assets/img/img_common.png" class="sub-spot-img">
+{% endblock %}
+
+{% block page %}
+<div class="sub-section sub-category-wrap">
+    <!-- PC에서 노출 -->
+    <div class="sub-section sub-category-wrap">
+        <div class="container">
+            <h3 class="sub-section-tit">CATEGORY</h3>
+            <hr class="half-rule">
+            <div class="sub-category">
+                <ul class="sub-category-list">
+                    {% for category in categories %}
+                    <li><a href="#{{ category }}">{{ category }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 모바일에서 노출 -->
+    <div class="sub-section sub-selectbox-wrap">
+        <div class="container">
+            <h3 class="blind">CATEGORY</h3>
+            <div class="sub-category select-box">
+                <label for="select_category">CATEGORY</label>
+                <i class="xi-caret-down"></i>
+                <select id="select_category" class="select-category">
+                    <option value="detault">CATEGORY</option>
+                    {% for category in categories %}
+                    <option value="{{ category }}">{{ category }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="sub-section sub-search-wrap">
+        <div class="container">
+            <h3 class="blind">TAG SEARCH</h3>
+            <div class="sub-search">
+                <input type="text" name="" placeholder="SEARCH" class="sub-search-input">
+                <span class="sub-search-icon"><label><i class="xi-magnifier"></i></label></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="filter clearfix">
+        <h3 class="sub-section-tit">`<span class="search-text"></span>` ICONS</h3>
+        <hr class="half-rule">
+        <div class="no-search-result">
+            <p class="no-search-notice">아이콘을 찾을 수 없습니다.<br>이슈를 등록하여 새로운 아이콘을 요청할 수 있습니다.</p>
+            <a href="https://github.com/xpressengine/XEIcon/issues/new" class="btn-github">
+                <span class="btn-github-txt">github</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="sub-section sub-icon-wrap">
+        <div class="container">
+            {% for category in categories %}
+            <h3 class="sub-section-tit" id="{{ category }}">{{ category }}</h3>
+            <hr class="half-rule">
+            {% for icon in icons[category] %}
+            <div class="glyph">
+                <div class="clearfix">
+                    <span class="unicode {% if category == 'spinner' %}xi-spin{% endif %}">&#x{{ icon.hex }};</span>
+                    <span class="mls">xi-{{ icon.name }}</span>
+                </div>
+                <div style="display: none;">{{ icon.keyword }}</div>
+            </div>
+            {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

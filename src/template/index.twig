@@ -1,0 +1,91 @@
+{# index.twig #}
+{% set isIndex = true %}
+
+{% extends "layout.twig" %}
+
+{% block page %}
+<!-- Page content of course! -->
+<div class="spot-area" id="content" role="main">
+    <div class="container-fluid">
+        <div class="spot-box">
+            <div class="spot-box-img">
+                <img src="assets/img/img_main.jpg" alt="" class="spot-img">
+            </div>
+            <div class="spot-box-txt">
+                <div class="container-content">
+                    <p class="container-txt">XEICon은 웹사이트 제작에 최적화된 벡터 그래픽 아이콘 툴킷입니다.<br>여러분의 아름답고 직관적인 웹페이지 제작을 돕습니다.</p>
+                    <div class="btn-box">
+                        <span class="btn-box-wrap">
+                            <a href="https://github.com/xpressengine/XEIcon/archive/2.2.0.zip" class="btn-dnld">
+                                <span>DOWNLOAD</span>
+                                <i class="xi-download"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="contents feature-container">
+    <div class="container">
+        <h2 class="container-tit">FEATURE</h2>
+        <hr class="half-rule">
+        <div class="row">
+            <div class="col-sm-4">
+                <dl>
+                    <dt><i class="xi-view-carousel"></i><span>다양한 구성</span></dt>
+                    <dd>웹 콘텐츠의 목적에 맞는 아이콘을 다양한 구성에서 찾아볼 수 있습니다. 라이브러리에서 필요한 아이콘을 찾아보세요!</dd>
+                </dl>
+            </div>
+            <div class="col-sm-4">
+                <dl>
+                    <dt><i class="xi-devices"></i><span>호환성</span></dt>
+                    <dd>XEIcon은 자바스크립트 없이 구현됩니다. 또한 다양한 브라우저에서 동일한 뷰로 웹 페이지를 노출합니다.</dd>
+                </dl>
+            </div>
+            <div class="col-sm-4">
+                <dl>
+                    <dt><i class="xi-layout"></i><span>최적화</span></dt>
+                    <dd>다양한 프레임워크에서 동일하게 구현됩니다. 여러 환경에서 자유롭게 이용해보세요! </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <dl>
+                    <dt><i class="xi-arrows-alt"></i><span>확장성</span></dt>
+                    <dd>벡터 아이콘으로 만들어진 XEICON은 어떤 크기로의 확장도 가능하며 높은 해상도의 화면에서도 선명한 형태를 유지합니다.</dd>
+                </dl>
+            </div>
+            <div class="col-sm-4">
+                <dl>
+                    <dt><i class="xi-pen"></i><span>자유로운 변형</span></dt>
+                    <dd>CSS를 통해 아이콘의 색상, 크기 등을 손쉽게 변형할 수 있습니다. LESS SASS로 더 넓어진 활용 범위를 확인하세요!</dd>
+                </dl>
+            </div>
+            <div class="col-sm-4">
+                <dl>
+                    <dt><i class="xi-gift"></i><span>오픈소스</span></dt>
+                    <dd>XEICON은 OFL라이선스를 따르는 오픈소스입니다. 모든 사용자에게 무료로 제공되며 영리적 이용 또한 가능합니다.</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="contents contribution-container">
+    <div class="container">
+        <h2 class="container-tit">CONTRIBUTION</h2>
+        <hr class="half-rule">
+        <div class="container-content">
+            <p class="container-txt">새로운 아이콘 요청이나 XEICON에 대한 제안이 있다면 자유롭게 이야기해 주세요!<br>앞으로의 이야기들을 함께 만들어갈 third party 참여 또한 환영합니다.</p>
+            <a href="https://github.com/xpressengine/XEIcon" target="_blank" class="btn-github">
+                <span class="btn-github-txt">github</span>
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}
