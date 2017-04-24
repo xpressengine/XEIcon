@@ -1,0 +1,24 @@
+// Spinning Icons
+// --------------------------
+
+.#{$xi-css-prefix}-spin {
+  animation: xi-spin 2s infinite linear;
+}
+
+@-webkit-keyframes xi-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes xi-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
