@@ -1,0 +1,112 @@
+{# layout.twig #}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="XEIcon, 문자를 그리다">
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://xpressengine.github.io/XEIcon/">
+    <meta property="og:image" content="https://xpressengine.github.io/XEIcon/assets/img/sns.jpg"/>
+    <meta property="og:description" content="XEICon은 웹사이트 제작에 최적화된 벡터 그래픽 아이콘 툴킷입니다. 여러분의 아름답고 직관적인 웹페이지 제작을 돕습니다.">
+    <title>XEIcon, 문자를 그리다</title>
+    <link rel="stylesheet" href='//fonts.googleapis.com/css?family=Open+Sans:700,600'>
+    {% block xeicon %}
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/latest/xeicon.min.css">
+    {% endblock %}
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <!-- favicon for XEIcon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+</head>
+
+<body>
+
+    <header class="navbar navbar-static-top transition" id="top" role="banner">
+        <p class="skip">
+            <a href="#content" onclick="document.getElementById('content').tabIndex = -1;document.getElementById('content').focus();return false;">메뉴 건너뛰기</a>
+        </p>
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                    <span class="blind">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand-wrap">
+                    <a href="index.html" class="navbar-brand transition"><span>XEICON</span></a>
+                </div>
+            </div>
+            <nav class="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html" class=" transition">HOME</a></li>
+                    <li><a href="started.html">GET STARTED</a></li>
+                    <li>
+                        <a href="library-{{ versions[0] }}.html">LIBRARY</a>
+                        <ul class="nav-depth off">
+                            {% for version in versions %}
+                            <li><a href="library-{{ version }}.html">{{ version }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                    <li><a href="examples.html">EXAMPLES</a></li>
+                    <li><a href="license.html">LICENSE</a></li>
+                    <li><a href="https://github.com/xpressengine/XEIcon">GITHUB</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    {% if block('subHeader') %}
+    <div class="sub-header" id="content">
+        <div class="container">
+            {% block subHeader %}{% endblock %}
+        </div>
+    </div>
+    {% endif %}
+
+    <section class="content-container">
+        {% block page %}{% endblock %}
+    </section>
+
+    <a href="#" class="btn_top"><i class="xi-angle-up"><span class="blind">위로가기</span></i></a>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <h2 class="blind">XEICON footer</h2>
+            <address class="footer-area">
+                <a href="http://www.xpressengine.com/" target="_blank" class="btn-footer-logo"><img src="assets/img/xe-logo.png" width="150" alt="xpress engine"></a>
+                <p class="address-txt">Copyright <a href="http://www.navercorp.com/ko/index.nhn" target="_blank">ⓒNAVER Corp.</a> Supported by <a href="https://www.facebook.com/naverd2" target="_blank">D2 Program.</a></p>
+            </address>
+        </div>
+    </footer>
+
+    <script src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery.quicksearch/2.3.2/jquery.quicksearch.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="//cdn.jsdelivr.net/ie10-viewport/1.0.0/ie10-viewport.min.js"></script>
+    <script src="assets/js/jquery.mktShare.1.0.0.js"></script>
+    <script src="assets/js/xeicon.js"></script>
+    <script>
+      jQuery.fn.OneClickSelect = function(){
+          return $(this).on('click',function(){
+           var range, selection;
+           if (window.getSelection) {
+            selection = window.getSelection();
+            range = document.createRange();
+            range.selectNodeContents(this);
+            selection.removeAllRanges();
+            selection.addRange(range);
+        } else if (document.body.createTextRange) {
+            range = document.body.createTextRange();
+            range.moveToElementText(this);
+            range.select();
+        }
+    });
+      };
+    // Apply to these elements
+    jQuery('.glyph span').OneClickSelect();
+</script>
+</body>
+</html>
