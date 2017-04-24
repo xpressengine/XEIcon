@@ -9,6 +9,7 @@ import autoprefixer from 'gulp-autoprefixer'
 import concat from 'gulp-concat'
 import header from 'gulp-header'
 import cleanCss from 'gulp-clean-css'
+import ghPages from 'gulp-gh-pages'
 
 gulp.task('default', ['sass'])
 gulp.task('gh-build', ['gh:copy-assets', 'gh:twig-other', 'gh:twig-library'])
@@ -31,6 +32,11 @@ gulp.task('sass', function () {
             compatibility: 'ie9'
         }))
         .pipe(gulp.dest('./'))
+});
+
+gulp.task('gh:deploy', function() {
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages());
 });
 
 /* gh-pages */

@@ -867,7 +867,8 @@ input[type="radio"] {
 .glyph {
   padding: 10px;
 }
-.unicode {font-family: xeicon; font-size: 32px; display: block;}
+.unicode {font-family: xeicon; font-size: 32px; display: block; height: 48px; line-height: 48px;}
+.glyph:focus .unicode {font-size: 48px;}
 .fs1{font-size:32px;color:#000}
 .mls{display:block;font-size:13px;margin-top:4px;color:#000}
 .clearfix:before,.clearfix:after{display:table;content:''}
