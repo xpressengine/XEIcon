@@ -1,7 +1,7 @@
 (function () {
     $(document).ready(function() {
         var innerWidth; // 화면 width 값
-        
+
         /* 메인 상단 spot 이미지 영역 컨트롤 */
         init();
         function init() {
@@ -11,22 +11,22 @@
                 $(".spot-box-img").css("height","330px");
                 $(".spot-img").addClass("m-spot");
             } else if(innerWidth < 769) {
-                $(".spot-img").attr("src","img/img_main_m.jpg");
+                $(".spot-img").attr("src","./assets/img/img_main_m.jpg");
             } else if(innerWidth > 769) {
-                $(".spot-img").attr("src","img/img_main.jpg");
+                $(".spot-img").attr("src","./assets/img/img_main.jpg");
             }
-            
+
             if(wScrollTop > 20) {
                 $(".sub-header").addClass("fixed-sub-header");
                 $(".navbar").addClass("move-navbar").addClass("navbar-fixed-top");
             }
-            
+
             if($('.sub-search-input').length !== 0) {
                 quickSearch.getStart();
             };
-            
-        } 
-        
+
+        }
+
         $(window).scroll(function() {
             var vScrollTop = $(window).scrollTop();
             /* 헤더 메뉴 컨트롤 */
@@ -49,11 +49,11 @@
             } else if(innerWidth > 570) {
                 $(".spot-box-img").css("height","");
                 $(".spot-img").removeClass("m-spot");
-            } 
+            }
             if(innerWidth < 749) {
-                $(".spot-img").attr("src","img/img_main_m.jpg");
+                $(".spot-img").attr("src","./assets/img/img_main_m.jpg");
             } else if(innerWidth > 749) {
-                $(".spot-img").attr("src","img/img_main.jpg");
+                $(".spot-img").attr("src","./assets/img/img_main.jpg");
             }
 
             // 모바일 메뉴 노출 상태에서 화면이 커졌을 경우 헤더 메뉴 정상 노출을 위해 적용
@@ -70,14 +70,14 @@
             menuHeight = $(".navbar-nav").css("height");
             navFlag = $(".navbar-nav").hasClass("open");
             if(navFlag) {
-                $(".navbar-nav").animate({ 
+                $(".navbar-nav").animate({
                     height: "0px"
                 }, 300, function() {
-                    $(".navbar-nav").removeClass("open").css("height","");    
+                    $(".navbar-nav").removeClass("open").css("height","");
                 });
             } else {
                 $(".navbar-nav").css("height","0px").addClass("open");
-                $(".navbar-nav").animate({ 
+                $(".navbar-nav").animate({
                     height: menuHeight
                 }, 300);
             }
@@ -91,7 +91,7 @@
                 $(this).find(".nav-depth").addClass("off");
             }
         });
-        
+
         /* LIBRARY 리스트 클릭 */
         $(".sub-category-list li > a").click(function (e) {
             e.preventDefault();
@@ -100,7 +100,7 @@
             var positionTop = $("#"+strId).position().top;
             categoryScroll(positionTop);
         });
-        
+
         /* 작은화면 selectbox 내용 클릭 시 */
         $("#select_category").change(function (e) {
             var str = "";
@@ -115,12 +115,12 @@
                 scrollTop: pPositionTop,
             }, 1);
         }
-        
+
         // Scroll to top
         var scrollToTop = function() {
             var link = $('.btn_top');
             var windowW = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    
+
             $(window).scroll(function() {
                 if (($(this).scrollTop() > 150) && (windowW > 1000)) {
                     link.fadeIn(100);
@@ -128,7 +128,7 @@
                     link.fadeOut(100);
                 }
             });
-    
+
             link.click(function() {
                 $('html, body').animate({scrollTop: 0}, 400);
                 return false;
@@ -140,40 +140,44 @@
 
 var quickSearch = (function(){
     var noneCnt = 0;    // 미노출 된 항목 개수
-    var iconCnt = $(".fillter .glyph").length;
+    var iconCnt = $(".filter .glyph").length;
+
     function quickSearchStart() {
-        $('.sub-search-input').quicksearch('.fillter .glyph', {
-            'hide': function() {
-                this.style.display = "none";
-                noneCnt++;
-            }
-        });
+        $('.sub-search-input').quicksearch('.sub-icon-wrap .glyph');
+
         $('.sub-search-input').on("keyup", function(e) {
-            var code = e.keyCode || e.which; 
-            if (code  == 13) {               
+            var code = e.keyCode || e.which;
+            if (code  == 13) {
                 e.preventDefault();
                 return false;
             }
+
             var searchValue = $('.sub-search-input').val();
+
             if(searchValue === "") {
-                $(".fillter").hide();
+                $(".filter").hide();
                 $(".no-search-result").hide();
                 $(".sub-icon-wrap").show();
+                $(".sub-icon-wrap hr").show();
+                $(".sub-icon-wrap .sub-section-tit").show();
             } else {
                 setTimeout(function() {
-                    $(".sub-icon-wrap").hide();
-                    $(".search-txt").html(searchValue);
-                    $(".fillter").show();
-                    
-                    // quicksearch 검색결과 유/무 체크
-                    if(noneCnt === iconCnt) {
-                        $(".no-search-result").show();
-                    } else {
+                    $(".search-text").html(searchValue);
+                    $(".sub-icon-wrap").show();
+                    $(".sub-icon-wrap .sub-section-tit").hide();
+                    $(".sub-icon-wrap hr").hide();
+
+                    if($('.sub-icon-wrap .glyph:visible').length) {
+                        $(".filter").show();
+                        $(".sub-icon-wrap").show();
                         $(".no-search-result").hide();
+                    } else {
+                        // $(".filter").hide();
+                        $(".sub-icon-wrap").hide();
+                        $(".no-search-result").show();
                     }
-                    noneCnt = 0;
                 }, 100);
-            };            
+            };
         });
     }
     return {
@@ -195,7 +199,7 @@ mkt.COMMON_MESSAGE = sCommonMessage;
 mkt.SHORT_URL = "http://xpressengine.github.io/XEIcon/";
 
 $.mktShare.init( sCommonMessage , sUrl);
- 
+
 // 페이스북버튼 이벤트 핸들러
 $("#facebook").click(function(event){
     event.preventDefault();

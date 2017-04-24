@@ -1,32 +1,25 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:title" content="XEIcon, 문자를 그리다">
-<meta property="og:type" content="article"/>
-<meta property="og:url" content="http://xpressengine.github.io/XEIcon/">
-<meta property="og:image" content="http://xpressengine.github.io/XEIcon/2.2.0/assets/img/sns.jpg"/>
-<meta property="og:description" content="XEICON은 웹사이트 제작에 최적화된 벡터 그래픽 아이콘 툴킷입니다. 여러분의 아름답고 직관적인 웹페이지 제작을 돕습니다.">    
-<title>Get Started : XEIcon</title>
-<link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:700,600' type='text/css'>
-<link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/2.2.0/xeicon.min.css">
-<link rel="stylesheet" href="2.2.0/assets/css/layout.css">
-<!-- favicon for XEIcon -->
-<link rel="shortcut icon" href="2.2.0/assets/img/favicon.ico">
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-  <script src="2.2.0/assets/js/html5shiv.min.js"></script>
-  <script src="2.2.0/assets/js/respond.min.js"></script>
-<![endif]-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="XEIcon, 문자를 그리다">
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://xpressengine.github.io/XEIcon/">
+    <meta property="og:image" content="https://xpressengine.github.io/XEIcon/assets/img/sns.jpg"/>
+    <meta property="og:description" content="XEICon은 웹사이트 제작에 최적화된 벡터 그래픽 아이콘 툴킷입니다. 여러분의 아름답고 직관적인 웹페이지 제작을 돕습니다.">
+    <title>XEIcon, 문자를 그리다</title>
+    <link rel="stylesheet" href='//fonts.googleapis.com/css?family=Open+Sans:700,600'>
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/latest/xeicon.min.css">
+        <link rel="stylesheet" href="assets/css/layout.css">
+    <!-- favicon for XEIcon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
 </head>
-<!-- [D] 서브 페이지일때 class="sub-type" 추가 -->
-<body class="sub-type">
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/2.2.0/assets/js/300/addthis_widget.js#pubid=ra-551df0a34cad3b9e" async="async"></script>
-    <!-- [D] PC에서 메뉴가 움직일때 class="move-navbar" 추가 -->
-    <!-- [D] 스크롤 움직일 시 class="navbar-static-top" 을 class="navbar-fixed-top" 으로 변경 -->
+
+<body>
+
     <header class="navbar navbar-static-top transition" id="top" role="banner">
         <p class="skip">
             <a href="#content" onclick="document.getElementById('content').tabIndex = -1;document.getElementById('content').focus();return false;">메뉴 건너뛰기</a>
@@ -44,248 +37,243 @@
                 </div>
             </div>
             <nav class="navbar-collapse">
-                <!-- [D] 메뉴 활성화 시 li 에 class="on" 적용 -->
                 <ul class="nav navbar-nav">
-                <li><a href="index.html" class=" transition">HOME</a></li>
-                <li class="on"><a href="started.html">GET STARTED</a></li>
-                <li>
-                    <a href="2.2.0/library_common.html">LIBRARY<i class="xi-angle-down"></i></a>
-                    <!-- [D] 서브 메뉴 비활성화 시 ul에 class="off" 추가, 메뉴 활성화 시 li 에 class="on" 적용 -->
-                    <ul class="nav-depth off">
-                        <li><a href="2.2.0/library_common.html">2.2.0</a></li>
-                        <li><a href="1.0.4/library_common.html">1.0.4</a></li>
-                    <!-- [D] THIN 배포 후 추가 
-                    <li><a href=library_thin.html">THIN</a></li>
-                    -->
-                    </ul>
-                </li>
-                <li><a href="examples.html">EXAMPLES</a></li>
-                <li><a href="license.html">LICENSE</a></li>
-                <li><a href="https://github.com/xpressengine/XEIcon">GITHUB</a></li>
+                    <li><a href="index.html" class=" transition">HOME</a></li>
+                    <li><a href="started.html">GET STARTED</a></li>
+                    <li>
+                        <a href="library-2.3.0.html">LIBRARY</a>
+                        <ul class="nav-depth off">
+                                                        <li><a href="library-2.3.0.html">2.3.0</a></li>
+                                                        <li><a href="library-1.0.4.html">1.0.4</a></li>
+                                                    </ul>
+                    </li>
+                    <li><a href="examples.html">EXAMPLES</a></li>
+                    <li><a href="license.html">LICENSE</a></li>
+                    <li><a href="https://github.com/xpressengine/XEIcon">GITHUB</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Page content of course! -->
-    <div class="sub-header" id="content">
+        <div class="sub-header" id="content">
         <div class="container">
             <h2 class="sub-header-tit">GET STARTED</h2>
-            <div class="sub-header-content">
-                <p class="sub-header-txt">XEIcon 사용방법은 매우 간단합니다. 자신의 웹사이트에 단 두 줄만 추가하는 것으로 바로 사용할 수 있습니다.<br>XEIcon과 함께라면 더욱 멋지고 빠르게 프로젝트를 완성할 수 있습니다.</p>
-            </div>
-            <img src="2.2.0/assets/img/img_started.png" class="sub-spot-img">
+<div class="sub-header-content">
+    <p class="sub-header-txt">XEIcon 사용방법은 매우 간단합니다. 자신의 웹사이트에 단 두 줄만 추가하는 것으로 바로 사용할 수 있습니다.<br>XEIcon과 함께라면 더욱 멋지고 빠르게 프로젝트를 완성할 수 있습니다.</p>
+</div>
+<img src="assets/img/img_started.png" class="sub-spot-img">
         </div>
     </div>
     
-    <div class="container sub-contents-container">
-        <div class="sub-section sub-started">
-            <h3 class="sub-section-tit" id="installation">설치(Installation)</h3>
-            <hr class="half-rule">
-            <h4 class="sub-section-sub-tit" id="cdn">가장 쉬운 방법(Easiest) : CDN by jsDelivr</h4>
-            <p class="sub-section-info">CDN을 사용하면 한 줄의 코드로 XEIcon을 사용할 수 있습니다. 파일을 다운로드하거나 설치할 필요가 없습니다.</p>
-            <ul class="desc-box">
+    <section class="content-container">
+        <div class="container sub-contents-container">
+    <div class="sub-section sub-started">
+        <h3 class="sub-section-tit" id="installation">설치(Installation)</h3>
+        <hr class="half-rule">
+        <h4 class="sub-section-sub-tit" id="cdn">가장 쉬운 방법(Easiest) : CDN by jsDelivr</h4>
+        <p class="sub-section-info">CDN을 사용하면 한 줄의 코드로 XEIcon을 사용할 수 있습니다. 파일을 다운로드하거나 설치할 필요가 없습니다.</p>
+        <ul class="desc-box">
             <li>
                 <ol>
-                <li>
-                    <p class="desc-txt">1. 사이트 <span class="deco-box">&lt;head&gt;</span> 태그 안에 아래의 코드를 붙입니다.</p>
-                    <div class="desc-code-box">
-                        <p class="desc-code"><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;//cdn.jsdelivr.net/xeicon/2/xeicon.min.css&quot;&gt;</code></p>
-                    </div>
-                </li>
-                <li>
-                    <p>2. <a href="examples.html">examples</a>페이지를 참조하여 XEIcon을 웹페이지에 적용합니다.</p>    
-                </li>
-                </ol>    
-            </li>
-            <li>
-                <ol>
-                <li>
-                    <p class="desc-txt">1. Paste the following code into the <span class="deco-box">&lt;head&gt;</span> section of your site&rsquo;s HTML.</p>
-                    <div class="desc-code-box">
-                        <p class="desc-code"><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;//cdn.jsdelivr.net/xeicon/2/xeicon.min.css&quot;&gt;</code></p>
-                    </div>
-                </li>
-                <li>
-                    <p>2. check out the <a href="examples.html">examples</a> to start using XEIcon!</p>    
-                </li>
+                    <li>
+                        <p class="desc-txt">1. 사이트 <span class="deco-box">&lt;head&gt;</span> 태그 안에 아래의 코드를 붙입니다.</p>
+                        <div class="desc-code-box">
+                            <p class="desc-code"><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;//cdn.jsdelivr.net/xeicon/2/xeicon.min.css&quot;&gt;</code></p>
+                        </div>
+                    </li>
+                    <li>
+                        <p>2. <a href="examples.html">examples</a>페이지를 참조하여 XEIcon을 웹페이지에 적용합니다.</p>
+                    </li>
                 </ol>
             </li>
-            </ul>
-            
-            <h4 class="sub-section-sub-tit">쉬운 방법(Easy) : Import CSS</h4>
-            <p class="sub-section-info">폰트를 다운받아 해당 버전의 XEIcon CSS를 사용하는 방법입니다.</p>
-            <ul class="desc-box">
             <li>
                 <ol>
-                <li>
-                    <p class="desc-txt">1. XEIcon 홈페이지에서 XEIcon을 다운로드 받습니다.</p>
-                </li>
-                <li>
-                    <p class="desc-txt">2. XEIcon이라는 폴더명으로 자신의 웹사이트에 복사합니다.</p>    
-                </li>
-                <li>
-                    <p class="desc-txt">3. html <span class="deco-box">&lt;head&gt;</span> 태그 안에 xeicon.min.css 파일 위치를 아래와 같이 가져옵니다.</p>
-                    <div class="desc-code-box">
-                        <p class="desc-code"><code>&lt;link =&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;path/to/xeicon/xeicon.min.css&quot;&gt;</code></p>
-                    </div>
-                </li>
-                <li>
-                    <p class="desc-txt">4. <a href="library_common.html">XEIcon 라이브러리</a>를 사용해서 XEIcon을 프로젝트에 적용합니다.</p>    
-                </li>
-                </ol>    
-            </li>
-            <li>
-                <ol>
-                <li>
-                    <p class="desc-txt">1. Copy the entire XEIcon directory into your project.</p>
-                </li>
-                <li>
-                    <p class="desc-txt">2. In the of your html, reference the location to your xeicon.min.css.</p>
-                    <div class="desc-code-box">
-                        <p class="desc-code"><code>&lt;link =&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;path/to/xeicon/xeicon.min.css&quot;&gt;</code></p>
-                    </div>
-                </li>
-                <li>
-                    <p class="desc-txt">3. check out the <a href="library_common.html">XEIcon Library</a> to start using XEIcon!</p>
-                </li>
+                    <li>
+                        <p class="desc-txt">1. Paste the following code into the <span class="deco-box">&lt;head&gt;</span> section of your site&rsquo;s HTML.</p>
+                        <div class="desc-code-box">
+                            <p class="desc-code"><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;//cdn.jsdelivr.net/xeicon/2/xeicon.min.css&quot;&gt;</code></p>
+                        </div>
+                    </li>
+                    <li>
+                        <p>2. check out the <a href="examples.html">examples</a> to start using XEIcon!</p>
+                    </li>
                 </ol>
             </li>
-            </ul>
-            
-            <h4 class="sub-section-sub-tit" id="bower">Bower를 통한 설치 : Install with Bower</h4>
-            <ul class="desc-box">
+        </ul>
+
+        <h4 class="sub-section-sub-tit">쉬운 방법(Easy) : Import CSS</h4>
+        <p class="sub-section-info">폰트를 다운받아 해당 버전의 XEIcon CSS를 사용하는 방법입니다.</p>
+        <ul class="desc-box">
             <li>
                 <ol>
-                <li>
-                    <p class="desc-txt">1. 웹 패키지 관리도구 Bower 사용자 설치 방법입니다. 터미널에 아래 명령어를 입력하여 인스톨할 수 있습니다.</p>
-                    <div class="desc-code-box">
-                        <p class="desc-code"><code>bower install xeicon</code><br><code>bower install xeicon#&lt;version&gt;</code></p>
-                    </div>
-                </li>
-                <li>
-                    <p class="desc-txt">2. 자세한 설치방법은 <a href="http://bower.io/docs/api/#install" target="_blank">Bower 홈페이지</a>를 참고하시기 바랍니다.</p>    
-                </li>
-                </ol>    
-            </li>
-            <li>
-                <ol>
-                <li>
-                    <p class="desc-txt">1. Once you have bower installed, open up Terminal (or Command Prompt) and enter the following command:</p>
-                    <div class="desc-code-box">
-                        <p class="desc-code"><code>bower install xeicon</code><br><code>bower install xeicon#&lt;version&gt;</code></p>
-                    </div>
-                </li>
-                <li>
-                    <p class="desc-txt">2. You can read more about installation on <a href="http://bower.io/docs/api/#install" target="_blank">Bower homepage</a>.</p>
-                </li>
+                    <li>
+                        <p class="desc-txt">1. XEIcon 홈페이지에서 XEIcon을 다운로드 받습니다.</p>
+                    </li>
+                    <li>
+                        <p class="desc-txt">2. XEIcon이라는 폴더명으로 자신의 웹사이트에 복사합니다.</p>
+                    </li>
+                    <li>
+                        <p class="desc-txt">3. html <span class="deco-box">&lt;head&gt;</span> 태그 안에 xeicon.min.css 파일 위치를 아래와 같이 가져옵니다.</p>
+                        <div class="desc-code-box">
+                            <p class="desc-code"><code>&lt;link =&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;path/to/xeicon/xeicon.min.css&quot;&gt;</code></p>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="desc-txt">4. <a href="library_common.html">XEIcon 라이브러리</a>를 사용해서 XEIcon을 프로젝트에 적용합니다.</p>
+                    </li>
                 </ol>
             </li>
-            </ul>
-        </div>
-        
-        <div class="sub-section sub-started">
-            <h3 class="sub-section-tit" id="use">사용방법(How to use)</h3>
-            <hr class="half-rule">
-            <p>XEIcon은 두가지 방법으로 웹에 적용할 수 있습니다. 적용과 설정 방법은 아래와 같습니다.</p>
-            <h4 class="sub-section-sub-tit" id="tag">Html tag</h4>
-            <ul class="desc-box">
+            <li>
+                <ol>
+                    <li>
+                        <p class="desc-txt">1. Copy the entire XEIcon directory into your project.</p>
+                    </li>
+                    <li>
+                        <p class="desc-txt">2. In the of your html, reference the location to your xeicon.min.css.</p>
+                        <div class="desc-code-box">
+                            <p class="desc-code"><code>&lt;link =&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;path/to/xeicon/xeicon.min.css&quot;&gt;</code></p>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="desc-txt">3. check out the <a href="library_common.html">XEIcon Library</a> to start using XEIcon!</p>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+
+        <h4 class="sub-section-sub-tit" id="bower">Bower를 통한 설치 : Install with Bower</h4>
+        <ul class="desc-box">
+            <li>
+                <ol>
+                    <li>
+                        <p class="desc-txt">1. 웹 패키지 관리도구 Bower 사용자 설치 방법입니다. 터미널에 아래 명령어를 입력하여 인스톨할 수 있습니다.</p>
+                        <div class="desc-code-box">
+                            <p class="desc-code"><code>bower install xeicon</code><br><code>bower install xeicon#&lt;version&gt;</code></p>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="desc-txt">2. 자세한 설치방법은 <a href="http://bower.io/docs/api/#install" target="_blank">Bower 홈페이지</a>를 참고하시기 바랍니다.</p>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <ol>
+                    <li>
+                        <p class="desc-txt">1. Once you have bower installed, open up Terminal (or Command Prompt) and enter the following command:</p>
+                        <div class="desc-code-box">
+                            <p class="desc-code"><code>bower install xeicon</code><br><code>bower install xeicon#&lt;version&gt;</code></p>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="desc-txt">2. You can read more about installation on <a href="http://bower.io/docs/api/#install" target="_blank">Bower homepage</a>.</p>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+
+    <div class="sub-section sub-started">
+        <h3 class="sub-section-tit" id="use">사용방법(How to use)</h3>
+        <hr class="half-rule">
+        <p>XEIcon은 두가지 방법으로 웹에 적용할 수 있습니다. 적용과 설정 방법은 아래와 같습니다.</p>
+        <h4 class="sub-section-sub-tit" id="tag">Html tag</h4>
+        <ul class="desc-box">
             <li>
                 <p class="desc-txt">간단하게 <span class="deco-box">&lt;i&gt;</span> 태그를 웹페이지에 써서 쓸 수 있습니다.</p>
                 <div class="desc-code-box">
                     <p class="desc-code"><code>&lt;i class=&quot;xi-xpressengine&quot;&gt;&lt;/i&gt; = <i class="xi-xpressengine"></i></code></p>
-                </div>   
+                </div>
             </li>
             <li>
                 <p class="desc-txt">You can use a simple <span class="deco-box">&lt;i&gt;</span> tag to place an icon in your page, like this:</p>
                 <div class="desc-code-box">
                     <p class="desc-code"><code>&lt;i class=&quot;xi-xpressengine&quot;&gt;&lt;/i&gt; = <i class="xi-xpressengine"></i></code></p>
-                </div>   
+                </div>
             </li>
-            </ul>
-            
-            <h4 class="sub-section-sub-tit" id="unicode">Unicode HTML Entity</h4>
-            <p class="sub-section-info">폰트를 다운받아 해당 버전의 XEIcon CSS를 사용하는 방법입니다.</p>
-            <ul class="desc-box">
+        </ul>
+
+        <h4 class="sub-section-sub-tit" id="unicode">Unicode HTML Entity</h4>
+        <p class="sub-section-info">폰트를 다운받아 해당 버전의 XEIcon CSS를 사용하는 방법입니다.</p>
+        <ul class="desc-box">
             <li>
                 <ol>
-                <li>
-                    <p class="desc-txt">1. 유니코드로 XEIcon을 적용하려면, CSS에서 XEIcon을 불러와야 합니다.</p>
-                    <div class="desc-code-box">
-                        <p class="desc-code"><code>span.icon {font-family : xeicon;}</code></p>
-                    </div>
-                </li>
-                <li>
-                    <p class="desc-txt">2. 다음으로 html에 유니코드를 삽입합니다.</p>
-                    <div class="desc-code-box">
-                        <p class="desc-code"><code>&lt;span class=&quot;icon&quot;&gt;&amp;#ec2e;&lt;/span&gt;</code></p>
-                    </div>
-                </li>
-                </ol>    
+                    <li>
+                        <p class="desc-txt">1. 유니코드로 XEIcon을 적용하려면, CSS에서 XEIcon을 불러와야 합니다.</p>
+                        <div class="desc-code-box">
+                            <p class="desc-code"><code>span.icon {font-family : xeicon;}</code></p>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="desc-txt">2. 다음으로 html에 유니코드를 삽입합니다.</p>
+                        <div class="desc-code-box">
+                            <p class="desc-code"><code>&lt;span class=&quot;icon&quot;&gt;&amp;#ec2e;&lt;/span&gt;</code></p>
+                        </div>
+                    </li>
+                </ol>
             </li>
             <li>
                 <ol>
-                <li>
-                    <p class="desc-txt">1. Specifying the xeicon web-font in a CSS rule with <span class="deco-box">&lt;font-family&gt;</span></p>
-                    <div class="desc-code-box">
-                        <p class="desc-code"><code>span.icon {font-family : xeicon;}</code></p>
-                    </div>
-                </li>
-                <li>
-                    <p class="desc-txt">2. Using the Unicode HTML Entity to display the icon</p>
-                    <div class="desc-code-box">
-                        <p class="desc-code"><code>&lt;span class=&quot;icon&quot;&gt;&amp;#ec2e;&lt;/span&gt;</code></p>
-                    </div>
-                </li>
-                </ol>    
+                    <li>
+                        <p class="desc-txt">1. Specifying the xeicon web-font in a CSS rule with <span class="deco-box">&lt;font-family&gt;</span></p>
+                        <div class="desc-code-box">
+                            <p class="desc-code"><code>span.icon {font-family : xeicon;}</code></p>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="desc-txt">2. Using the Unicode HTML Entity to display the icon</p>
+                        <div class="desc-code-box">
+                            <p class="desc-code"><code>&lt;span class=&quot;icon&quot;&gt;&amp;#ec2e;&lt;/span&gt;</code></p>
+                        </div>
+                    </li>
+                </ol>
             </li>
-            </ul>
-            <div class="notice-txt-area">
-                <p>Note : 이 방법은 더 유연하게 사용할 수 있습니다. 예를들어, &lt;div&gt;, &lt;span&gt;과 같은 태그를 &lt;i&gt;태그 대신에 쓸 수 있습니다.</p>
-                <p>Note : This method may offer you more flexibility. for example, you could use a &lt;div&gt; or &lt;span&gt; tags instead of a &lt;i&gt;tag.</p>
-            </div>
+        </ul>
+        <div class="notice-txt-area">
+            <p>Note : 이 방법은 더 유연하게 사용할 수 있습니다. 예를들어, &lt;div&gt;, &lt;span&gt;과 같은 태그를 &lt;i&gt;태그 대신에 쓸 수 있습니다.</p>
+            <p>Note : This method may offer you more flexibility. for example, you could use a &lt;div&gt; or &lt;span&gt; tags instead of a &lt;i&gt;tag.</p>
         </div>
-        
     </div>
 
+</div>
+    </section>
+
     <a href="#" class="btn_top"><i class="xi-angle-up"><span class="blind">위로가기</span></i></a>
-    
-    <!-- Footer
-    ================================================== -->
+
     <footer class="footer" role="contentinfo">
         <div class="container">
             <h2 class="blind">XEICON footer</h2>
             <address class="footer-area">
-                <a href="http://www.xpressengine.com/" target="_blank" class="btn-footer-logo"><img src="2.2.0/assets/img/xe-logo.png" width="150" alt="xpress engine"></a>
-                <p class="address-txt">Copyright <a href="http://www.navercorp.com/ko/index.nhn" target="_blank">ⓒNAVER Corp.</a> Supported by <a href="https://www.facebook.com/naverd2" target="_blank">D2 Program.</a></p>
+                <a href="https://www.xpressengine.com/" target="_blank" class="btn-footer-logo"><img src="assets/img/xe-logo.png" width="150" alt="xpress engine"></a>
+                <p class="address-txt">Copyright <a href="http://www.navercorp.com/" target="_blank">ⓒNAVER Corp.</a> Supported by <a href="http://d2.naver.com/" target="_blank">D2 Program.</a></p>
             </address>
-            <!-- sns 공유버튼 카운팅 개발 후 노출 
-            <div class="sns-area">
-                <ul>
-                <li><a href="#" id="facebook"><span class="blind">facebook</span><i class="xi-facebook"></i></a></li>
-                <li><a href="#" id="twitter"><span class="blind">twitter</span><i class="xi-twitter"></i></a></li>
-                </ul>
-            </div>
-            -->
         </div>
     </footer>
-</body>
 
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script> 
-<script src="2.2.0/assets/js/jquery.mktShare.1.0.0.js"></script> 
-<script src="2.2.0/assets/js/xeicon.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
-    
-<!-- Analytics -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-46389165-9', 'auto');
-  ga('send', 'pageview');
+    <script src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery.quicksearch/2.3.2/jquery.quicksearch.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="//cdn.jsdelivr.net/ie10-viewport/1.0.0/ie10-viewport.min.js"></script>
+    <script src="assets/js/jquery.mktShare.1.0.0.js"></script>
+    <script src="assets/js/xeicon.js"></script>
+    <script>
+      jQuery.fn.OneClickSelect = function(){
+          return $(this).on('click',function(){
+           var range, selection;
+           if (window.getSelection) {
+            selection = window.getSelection();
+            range = document.createRange();
+            range.selectNodeContents(this);
+            selection.removeAllRanges();
+            selection.addRange(range);
+        } else if (document.body.createTextRange) {
+            range = document.body.createTextRange();
+            range.moveToElementText(this);
+            range.select();
+        }
+    });
+      };
+    // Apply to these elements
+    jQuery('.glyph span').OneClickSelect();
 </script>
-    
+</body>
 </html>
