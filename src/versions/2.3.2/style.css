@@ -10,7 +10,8 @@
   font-style: normal;
 }
 
-i {
+i[class~="xi-"],
+i[class*="xi-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'xeicon' !important;
   display: inline-block;
