@@ -3,6 +3,7 @@
 .babelrc
 .gitignore
 .npmignore
+.publish
 bower.json
 dist
 gulpfile.babel.js
