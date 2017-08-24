@@ -1,6 +1,26 @@
 {
-  "private": true,
-  "dependencies": {
+  "name": "xeicon",
+  "version": "2.3.2",
+  "description": "Beautiful transformable iconic font made for the web.",
+  "main": "xeicon.min.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xpressengine/XEIcon.git"
+  },
+  "author": "xpressengine",
+  "license": "SIL OFL 1.1",
+  "bugs": {
+    "url": "https://github.com/xpressengine/XEIcon/issues"
+  },
+  "homepage": "http://xpressengine.github.io/XEIcon/",
+  "keywords": [
+    "font",
+    "glyphs",
+    "icon-font",
+    "icons"
+  ],
+  "dependencies": {},
+  "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "gulp": "^3.9.1",
@@ -14,6 +34,5 @@
     "gulp-sass": "^3.1.0",
     "gulp-twig": "^0.7.0",
     "lodash": "^4.17.4"
-  },
-  "devDependencies": {}
+  }
 }

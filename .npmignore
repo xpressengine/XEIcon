@@ -1,0 +1,7 @@
+*.md
+.babelrc
+.gitignore
+bower.json
+dist
+gulpfile.babel.js
+src
