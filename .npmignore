@@ -2,6 +2,7 @@
 *.sublime-*
 .babelrc
 .gitignore
+.npmignore
 bower.json
 dist
 gulpfile.babel.js
