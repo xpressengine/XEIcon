@@ -1,4 +1,5 @@
 *.md
+*.sublime-*
 .babelrc
 .gitignore
 bower.json
