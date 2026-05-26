@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 // List Icons
 // -------------------------
 
@@ -9,11 +11,11 @@
 }
 .#{$xi-css-prefix}-li {
   position: absolute;
-  left: -$xi-li-width;
+  left: -($xi-li-width);
   width: $xi-li-width;
-  top: (2em / 14);
+  top: calc(2em / 14);
   text-align: center;
   &.#{$xi-css-prefix}-lg {
-    left: -$xi-li-width + (4em / 14);
+    left: -($xi-li-width) + calc(4em / 14);
   }
 }

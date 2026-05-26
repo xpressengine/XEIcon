@@ -1,29 +1,29 @@
 {
   "name": "xeicon",
-  "version": "2.3.3",
+  "version": "2.4.0",
   "description": "Beautiful transformable iconic font made for the web.",
   "main": "xeicon.min.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xpressengine/XEIcon.git"
+    "url": "git+https://github.com/xpressengine/XEIcon.git"
   },
   "author": "xpressengine",
   "license": "OFL-1.1",
   "bugs": {
     "url": "https://github.com/xpressengine/XEIcon/issues"
   },
-  "homepage": "http://xpressengine.github.io/XEIcon/",
+  "homepage": "https://xpressengine.github.io/XEIcon/",
   "keywords": [
     "font",
     "glyphs",
     "icon-font",
     "icons"
   ],
-  "dependencies": {},
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "gulp": "^3.9.1",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/register": "^7.25.9",
+    "gulp": "^5.0.0",
     "gulp-all": "^1.1.0",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-clean-css": "^3.7.0",
@@ -31,8 +31,9 @@
     "gulp-gh-pages": "^0.5.4",
     "gulp-header": "^1.8.9",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^6.0.0",
     "gulp-twig": "^0.7.0",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "sass": "^1.81.0"
   }
 }

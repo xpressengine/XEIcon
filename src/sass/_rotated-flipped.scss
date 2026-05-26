@@ -1,12 +1,15 @@
+@use "mixins";
+@use 'variables' as *;
+
 // Rotated & Flipped Icons
 // -------------------------
 
-.#{$xi-css-prefix}-rotate-90  { @include xi-icon-rotate(90deg, 1);  }
-.#{$xi-css-prefix}-rotate-180 { @include xi-icon-rotate(180deg, 2); }
-.#{$xi-css-prefix}-rotate-270 { @include xi-icon-rotate(270deg, 3); }
+.#{$xi-css-prefix}-rotate-90  { @include mixins.xi-icon-rotate(90deg, 1);  }
+.#{$xi-css-prefix}-rotate-180 { @include mixins.xi-icon-rotate(180deg, 2); }
+.#{$xi-css-prefix}-rotate-270 { @include mixins.xi-icon-rotate(270deg, 3); }
 
-.#{$xi-css-prefix}-flip-horizontal { @include xi-icon-flip(-1, 1, 0); }
-.#{$xi-css-prefix}-flip-vertical   { @include xi-icon-flip(1, -1, 2); }
+.#{$xi-css-prefix}-flip-horizontal { @include mixins.xi-icon-flip(-1, 1, 0); }
+.#{$xi-css-prefix}-flip-vertical   { @include mixins.xi-icon-flip(1, -1, 2); }
 
 // Hook for IE8-9
 // -------------------------

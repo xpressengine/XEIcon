@@ -1,10 +1,12 @@
+@use 'variables' as *;
+
 // Icon Sizes
 // -------------------------
 
 /* makes the font 33% larger relative to the icon container */
 .#{$xi-css-prefix}-x {
-  font-size: (4em / 3);
-  line-height: (3em / 4);
+  font-size: calc(4em / 3);
+  line-height: calc(3em / 4);
   vertical-align: -15%;
 }
 .#{$xi-css-prefix}-2x { font-size: 2em; }

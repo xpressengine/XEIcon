@@ -1,6 +1,8 @@
+@use 'variables' as *;
+
 // Fixed Width Icons
 // -------------------------
 .#{$xi-css-prefix}-fw {
-  width: (18em / 14);
+  width: calc(18em / 14);
   text-align: center;
 }
