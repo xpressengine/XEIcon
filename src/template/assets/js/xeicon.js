@@ -189,14 +189,14 @@ var quickSearch = (function(){
 
 /* SNS 공유  */
 var sCommonMessage = "XEICON은 웹사이트 제작에 최적화된 백터 그래픽 아이콘 툴킷입니다. 여러분의 아름답고 직관적인 웹페이지 제작을 돕습니다.";
-var sUrl = "http://xpressengine.github.io/XEIcon/";
+var sUrl = "https://xpressengine.github.io/XEIcon/";
 
 var mkt = {};
 
 mkt.URL = sUrl;
 mkt.TITLE = "XEIcon, 문자를 그리다";
 mkt.COMMON_MESSAGE = sCommonMessage;
-mkt.SHORT_URL = "http://xpressengine.github.io/XEIcon/";
+mkt.SHORT_URL = "https://xpressengine.github.io/XEIcon/";
 
 $.mktShare.init( sCommonMessage , sUrl);
 
