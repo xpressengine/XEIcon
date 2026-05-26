@@ -27,7 +27,7 @@ $ bower install xeicon
 - [jsDelivr](https://www.jsdelivr.com/package/npm/@xpressengine/xeicon) CDN: 
 
 ```html
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@xpressengine/xeicon@2.4.0/xeicon.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@xpressengine/xeicon@latest/xeicon.min.css">
 ```
 
 공식홈페이지 [Get started page](https://xpressengine.github.io/XEIcon/started.html)페이지에서 자세한 사용방법을 확인할 수 있습니다.

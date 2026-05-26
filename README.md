@@ -14,7 +14,7 @@ To get stared, check out [http://xpressengine.github.io/XEIcon](http://xpresseng
 - [Download the latest release](https://github.com/xpressengine/XEIcon/archive/master.zip).
 - Clone the repo: `git clone https://github.com/xpressengine/XEIcon.git`.
 - Install with [Bower](https://bower.io): `bower install xeicon`.
-- CDN by [jsDelivr](https://www.jsdelivr.com/package/npm/@xpressengine/xeicon): `<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@xpressengine/xeicon@2.4.0/xeicon.min.css">`
+- CDN by [jsDelivr](https://www.jsdelivr.com/package/npm/@xpressengine/xeicon): `<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@xpressengine/xeicon@latest/xeicon.min.css">`
 
 - Install with [Bower](https://bower.io): 
 ```
@@ -23,7 +23,7 @@ $ bower install XEIcon
 
 - CDN by [jsDelivr](https://www.jsdelivr.com/package/npm/@xpressengine/xeicon): 
 ```html
-<link href="//cdn.jsdelivr.net/npm/@xpressengine/xeicon@2.4.0/xeicon.min.css" rel="stylesheet">
+<link href="//cdn.jsdelivr.net/npm/@xpressengine/xeicon@latest/xeicon.min.css" rel="stylesheet">
 ```
 
 Read the [Get started page](https://xpressengine.github.io/XEIcon/started.html) for information on the contents and examples, and more.
